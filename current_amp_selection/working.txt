@@ -1,0 +1,37 @@
+Not acceptable:
+
+AP4305: Power supply voltage too low
+INAx181: Maximum common mode voltage too low at 26 V
+Si8540: Unidirectional
+TS94033: Too slow of a slew rate at 10mV/us, gain too high at 50, horrible temperature characteristics
+CS30: High input offset drift, gain is 20, high output offset drift, low accuracy generally, unidirectional
+TSC888: No negative common mode range, unidirectional
+MAX437X: No negative common mode range, unidrectional
+TS110X: Common mode input range too low at 27 V
+MAX9918: Gain of 45 is too high
+MAX4173: No negative common mode range
+INA21x: Gain too high at 50, unidirectional
+TSC1021: No negative common mode range, unidirectional
+TSC101: No negative common mode range, unidirectional
+MAX9928: Common mode range too low at 28 V
+MAX9938: No negative common mode range, unidirectional
+MAX4372T: No negative common mode range, unidirectional
+SC310: No negative common mode range, unidirectional
+MAX99XX: Too much input offset voltage drift!!! Close. Gain is a little high maybe, but the adjustable one is OK (with more of the other problem)
+MAX9634: No negative common mode range, unidirectional
+MAX4081: Looks OK
+TSC102: No negative common mode range, unidirectional
+LMP8640: Unidirectional
+ISL28005: Unidirectional
+MAX9610: Unidirectional
+CS70: Unidirectional
+LT6106: Unidirectional
+MAX961X: Unidirectional
+MAX44284: Unidirectional
+LMP8645: Unidirectional
+MAX992X: Common mode range is too low at 28 V
+
+Good so far:
+MAX9918/20
+MAX4081
+LT1787 (expensive)
