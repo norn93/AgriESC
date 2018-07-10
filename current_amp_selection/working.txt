@@ -1,5 +1,8 @@
-Not acceptable:
+Using http://www.nutsvolts.com/magazine/article/how_to_choose_an_operational_amplifier
+Searching Digikey for active parts in stock with a quantity of 10, ordering by price
+Looking for current sense op amps
 
+Not acceptable:
 AP4305: Power supply voltage too low
 INAx181: Maximum common mode voltage too low at 26 V
 Si8540: Unidirectional
