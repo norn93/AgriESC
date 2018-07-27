@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDMS7698
+D NFET, 30V, 22A, 10mOhm
+F https://www.fairchildsemi.com/datasheets/FD/FDMS7698.pdf
+$ENDCMP
+#
+#End Doc Library
