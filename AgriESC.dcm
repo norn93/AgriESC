@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DRV8303
+D Three-Phase Gate Driver With Dual-Current Shunt Amplifiers
+$ENDCMP
+#
 $CMP FDMS7698
 D NFET, 30V, 22A, 10mOhm
 F https://www.fairchildsemi.com/datasheets/FD/FDMS7698.pdf
