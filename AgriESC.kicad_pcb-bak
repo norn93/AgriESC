@@ -5,7 +5,7 @@
     (drawings 0)
     (tracks 0)
     (zones 0)
-    (modules 280)
+    (modules 307)
     (nets 112)
   )
 
@@ -320,6 +320,330 @@
     (add_net USB_DP)
     (add_net VAA)
     (add_net VCC)
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79B529)
+    (at 233 59)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79AFF9)
+    (at 233 58)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79AACB)
+    (at 233 57)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79A59F)
+    (at 234 58)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79A075)
+    (at 234 57)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B799B4D)
+    (at 235 58)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B799627)
+    (at 235 57)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B799103)
+    (at 236 58)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B798BE1)
+    (at 236 57)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B7986C1)
+    (at 237 58)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B7981A3)
+    (at 237 57)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B797C87)
+    (at 237 51)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79776D)
+    (at 236 51)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B797255)
+    (at 235 51)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B796D3F)
+    (at 234 51)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79630A)
+    (at 233 51)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 20 SH_C) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B795DEE)
+    (at 237 43)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7958DE)
+    (at 236 43)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7953D0)
+    (at 235 43)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B794EC4)
+    (at 234 43)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7949BA)
+    (at 233 43)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793AA6)
+    (at 232 48)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793AA2)
+    (at 232 47)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793A9E)
+    (at 232 46)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793A9A)
+    (at 232 45)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793A96)
+    (at 232 44)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
+  )
+
+  (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7921A8)
+    (at 232 43)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 SUPPLY) (zone_connect 2))
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D5B)
@@ -7437,38 +7761,40 @@
     )
     (filled_polygon
       (pts
-        (xy 242.375 48.375) (xy 237.625 48.375) (xy 237.625 42.5) (xy 237.615485 42.452165) (xy 237.588388 42.411612)
-        (xy 237.547835 42.384515) (xy 237.5 42.375) (xy 231 42.375) (xy 230.952165 42.384515) (xy 230.911612 42.411612)
-        (xy 230.884515 42.452165) (xy 230.875 42.5) (xy 230.875 48.375) (xy 224.987891 48.375) (xy 224.953863 48.352263)
-        (xy 224.71 48.303756) (xy 224.1 48.303756) (xy 223.856137 48.352263) (xy 223.822109 48.375) (xy 223.717891 48.375)
-        (xy 223.683863 48.352263) (xy 223.44 48.303756) (xy 222.83 48.303756) (xy 222.586137 48.352263) (xy 222.552109 48.375)
-        (xy 222.447891 48.375) (xy 222.413863 48.352263) (xy 222.17 48.303756) (xy 221.56 48.303756) (xy 221.316137 48.352263)
-        (xy 221.282109 48.375) (xy 221.177891 48.375) (xy 221.143863 48.352263) (xy 220.9 48.303756) (xy 220.29 48.303756)
-        (xy 220.046137 48.352263) (xy 220.012109 48.375) (xy 212.487891 48.375) (xy 212.453863 48.352263) (xy 212.21 48.303756)
-        (xy 211.6 48.303756) (xy 211.356137 48.352263) (xy 211.322109 48.375) (xy 211.217891 48.375) (xy 211.183863 48.352263)
-        (xy 210.94 48.303756) (xy 210.33 48.303756) (xy 210.086137 48.352263) (xy 210.052109 48.375) (xy 209.947891 48.375)
-        (xy 209.913863 48.352263) (xy 209.67 48.303756) (xy 209.06 48.303756) (xy 208.816137 48.352263) (xy 208.782109 48.375)
-        (xy 208.677891 48.375) (xy 208.643863 48.352263) (xy 208.4 48.303756) (xy 207.79 48.303756) (xy 207.546137 48.352263)
-        (xy 207.512109 48.375) (xy 200.625 48.375) (xy 200.625 26.987801) (xy 218.925 26.987801) (xy 218.925 28.012199)
-        (xy 219.317021 28.95862) (xy 220.04138 29.682979) (xy 220.987801 30.075) (xy 222.012199 30.075) (xy 222.95862 29.682979)
-        (xy 223.682979 28.95862) (xy 224.075 28.012199) (xy 224.075 26.987801) (xy 223.682979 26.04138) (xy 222.95862 25.317021)
-        (xy 222.012199 24.925) (xy 220.987801 24.925) (xy 220.04138 25.317021) (xy 219.317021 26.04138) (xy 218.925 26.987801)
-        (xy 200.625 26.987801) (xy 200.625 20.676767) (xy 207.375 20.676767) (xy 207.375 21.323233) (xy 207.622391 21.920489)
-        (xy 208.079511 22.377609) (xy 208.676767 22.625) (xy 209.323233 22.625) (xy 209.920489 22.377609) (xy 210.377609 21.920489)
-        (xy 210.625 21.323233) (xy 210.625 21.176767) (xy 233.375 21.176767) (xy 233.375 21.823233) (xy 233.622391 22.420489)
-        (xy 234.079511 22.877609) (xy 234.676767 23.125) (xy 235.323233 23.125) (xy 235.920489 22.877609) (xy 236.377609 22.420489)
-        (xy 236.625 21.823233) (xy 236.625 21.176767) (xy 236.377609 20.579511) (xy 235.920489 20.122391) (xy 235.323233 19.875)
-        (xy 234.676767 19.875) (xy 234.079511 20.122391) (xy 233.622391 20.579511) (xy 233.375 21.176767) (xy 210.625 21.176767)
-        (xy 210.625 20.676767) (xy 210.377609 20.079511) (xy 209.920489 19.622391) (xy 209.323233 19.375) (xy 208.676767 19.375)
-        (xy 208.079511 19.622391) (xy 207.622391 20.079511) (xy 207.375 20.676767) (xy 200.625 20.676767) (xy 200.625 17.156876)
-        (xy 211.775 17.156876) (xy 211.775 17.843124) (xy 212.037615 18.477134) (xy 212.522866 18.962385) (xy 213.156876 19.225)
-        (xy 213.843124 19.225) (xy 214.477134 18.962385) (xy 214.962385 18.477134) (xy 215.225 17.843124) (xy 215.225 17.156876)
-        (xy 222.775 17.156876) (xy 222.775 17.843124) (xy 223.037615 18.477134) (xy 223.522866 18.962385) (xy 224.156876 19.225)
-        (xy 224.843124 19.225) (xy 225.477134 18.962385) (xy 225.962385 18.477134) (xy 226.225 17.843124) (xy 226.225 17.156876)
-        (xy 225.962385 16.522866) (xy 225.477134 16.037615) (xy 224.843124 15.775) (xy 224.156876 15.775) (xy 223.522866 16.037615)
-        (xy 223.037615 16.522866) (xy 222.775 17.156876) (xy 215.225 17.156876) (xy 214.962385 16.522866) (xy 214.477134 16.037615)
-        (xy 213.843124 15.775) (xy 213.156876 15.775) (xy 212.522866 16.037615) (xy 212.037615 16.522866) (xy 211.775 17.156876)
-        (xy 200.625 17.156876) (xy 200.625 14.625) (xy 242.375 14.625)
+        (xy 242.375 48.375) (xy 237.487891 48.375) (xy 237.453863 48.352263) (xy 237.21 48.303756) (xy 236.6 48.303756)
+        (xy 236.356137 48.352263) (xy 236.322109 48.375) (xy 236.217891 48.375) (xy 236.183863 48.352263) (xy 235.94 48.303756)
+        (xy 235.33 48.303756) (xy 235.086137 48.352263) (xy 235.052109 48.375) (xy 234.947891 48.375) (xy 234.913863 48.352263)
+        (xy 234.67 48.303756) (xy 234.06 48.303756) (xy 233.816137 48.352263) (xy 233.782109 48.375) (xy 233.677891 48.375)
+        (xy 233.643863 48.352263) (xy 233.4 48.303756) (xy 232.79 48.303756) (xy 232.546137 48.352263) (xy 232.512109 48.375)
+        (xy 224.987891 48.375) (xy 224.953863 48.352263) (xy 224.71 48.303756) (xy 224.1 48.303756) (xy 223.856137 48.352263)
+        (xy 223.822109 48.375) (xy 223.717891 48.375) (xy 223.683863 48.352263) (xy 223.44 48.303756) (xy 222.83 48.303756)
+        (xy 222.586137 48.352263) (xy 222.552109 48.375) (xy 222.447891 48.375) (xy 222.413863 48.352263) (xy 222.17 48.303756)
+        (xy 221.56 48.303756) (xy 221.316137 48.352263) (xy 221.282109 48.375) (xy 221.177891 48.375) (xy 221.143863 48.352263)
+        (xy 220.9 48.303756) (xy 220.29 48.303756) (xy 220.046137 48.352263) (xy 220.012109 48.375) (xy 212.487891 48.375)
+        (xy 212.453863 48.352263) (xy 212.21 48.303756) (xy 211.6 48.303756) (xy 211.356137 48.352263) (xy 211.322109 48.375)
+        (xy 211.217891 48.375) (xy 211.183863 48.352263) (xy 210.94 48.303756) (xy 210.33 48.303756) (xy 210.086137 48.352263)
+        (xy 210.052109 48.375) (xy 209.947891 48.375) (xy 209.913863 48.352263) (xy 209.67 48.303756) (xy 209.06 48.303756)
+        (xy 208.816137 48.352263) (xy 208.782109 48.375) (xy 208.677891 48.375) (xy 208.643863 48.352263) (xy 208.4 48.303756)
+        (xy 207.79 48.303756) (xy 207.546137 48.352263) (xy 207.512109 48.375) (xy 200.625 48.375) (xy 200.625 26.987801)
+        (xy 218.925 26.987801) (xy 218.925 28.012199) (xy 219.317021 28.95862) (xy 220.04138 29.682979) (xy 220.987801 30.075)
+        (xy 222.012199 30.075) (xy 222.95862 29.682979) (xy 223.682979 28.95862) (xy 224.075 28.012199) (xy 224.075 26.987801)
+        (xy 223.682979 26.04138) (xy 222.95862 25.317021) (xy 222.012199 24.925) (xy 220.987801 24.925) (xy 220.04138 25.317021)
+        (xy 219.317021 26.04138) (xy 218.925 26.987801) (xy 200.625 26.987801) (xy 200.625 20.676767) (xy 207.375 20.676767)
+        (xy 207.375 21.323233) (xy 207.622391 21.920489) (xy 208.079511 22.377609) (xy 208.676767 22.625) (xy 209.323233 22.625)
+        (xy 209.920489 22.377609) (xy 210.377609 21.920489) (xy 210.625 21.323233) (xy 210.625 21.176767) (xy 233.375 21.176767)
+        (xy 233.375 21.823233) (xy 233.622391 22.420489) (xy 234.079511 22.877609) (xy 234.676767 23.125) (xy 235.323233 23.125)
+        (xy 235.920489 22.877609) (xy 236.377609 22.420489) (xy 236.625 21.823233) (xy 236.625 21.176767) (xy 236.377609 20.579511)
+        (xy 235.920489 20.122391) (xy 235.323233 19.875) (xy 234.676767 19.875) (xy 234.079511 20.122391) (xy 233.622391 20.579511)
+        (xy 233.375 21.176767) (xy 210.625 21.176767) (xy 210.625 20.676767) (xy 210.377609 20.079511) (xy 209.920489 19.622391)
+        (xy 209.323233 19.375) (xy 208.676767 19.375) (xy 208.079511 19.622391) (xy 207.622391 20.079511) (xy 207.375 20.676767)
+        (xy 200.625 20.676767) (xy 200.625 17.156876) (xy 211.775 17.156876) (xy 211.775 17.843124) (xy 212.037615 18.477134)
+        (xy 212.522866 18.962385) (xy 213.156876 19.225) (xy 213.843124 19.225) (xy 214.477134 18.962385) (xy 214.962385 18.477134)
+        (xy 215.225 17.843124) (xy 215.225 17.156876) (xy 222.775 17.156876) (xy 222.775 17.843124) (xy 223.037615 18.477134)
+        (xy 223.522866 18.962385) (xy 224.156876 19.225) (xy 224.843124 19.225) (xy 225.477134 18.962385) (xy 225.962385 18.477134)
+        (xy 226.225 17.843124) (xy 226.225 17.156876) (xy 225.962385 16.522866) (xy 225.477134 16.037615) (xy 224.843124 15.775)
+        (xy 224.156876 15.775) (xy 223.522866 16.037615) (xy 223.037615 16.522866) (xy 222.775 17.156876) (xy 215.225 17.156876)
+        (xy 214.962385 16.522866) (xy 214.477134 16.037615) (xy 213.843124 15.775) (xy 213.156876 15.775) (xy 212.522866 16.037615)
+        (xy 212.037615 16.522866) (xy 211.775 17.156876) (xy 200.625 17.156876) (xy 200.625 14.625) (xy 242.375 14.625)
       )
     )
   )
@@ -7491,21 +7817,15 @@
         (xy 213.125 42.5) (xy 218.375 42.5) (xy 218.375 48.5) (xy 218.422575 48.739177) (xy 218.558058 48.941942)
         (xy 218.760823 49.077425) (xy 219 49.125) (xy 219.375 49.125) (xy 219.375 59.5) (xy 219.422575 59.739177)
         (xy 219.558058 59.941942) (xy 219.760823 60.077425) (xy 220 60.125) (xy 225 60.125) (xy 225.239177 60.077425)
-        (xy 225.441942 59.941942) (xy 225.577425 59.739177) (xy 225.625 59.5) (xy 225.625 49) (xy 231.875 49)
-        (xy 231.875 59.5) (xy 231.922575 59.739177) (xy 232.058058 59.941942) (xy 232.260823 60.077425) (xy 232.5 60.125)
-        (xy 237.5 60.125) (xy 237.739177 60.077425) (xy 237.941942 59.941942) (xy 238.077425 59.739177) (xy 238.125 59.5)
-        (xy 238.125 49) (xy 238.077425 48.760823) (xy 237.941942 48.558058) (xy 237.739177 48.422575) (xy 237.5 48.375)
-        (xy 232.5 48.375) (xy 232.260823 48.422575) (xy 232.058058 48.558058) (xy 231.922575 48.760823) (xy 231.875 49)
-        (xy 225.625 49) (xy 225.577425 48.760823) (xy 225.570193 48.75) (xy 225.577425 48.739177) (xy 225.625 48.5)
-        (xy 225.625 45.316006) (xy 233.075 45.316006) (xy 233.075 45.683994) (xy 233.215823 46.023971) (xy 233.441852 46.25)
-        (xy 233.215823 46.476029) (xy 233.075 46.816006) (xy 233.075 47.183994) (xy 233.215823 47.523971) (xy 233.476029 47.784177)
-        (xy 233.816006 47.925) (xy 234.183994 47.925) (xy 234.5 47.794106) (xy 234.816006 47.925) (xy 235.183994 47.925)
-        (xy 235.5 47.794106) (xy 235.816006 47.925) (xy 236.183994 47.925) (xy 236.523971 47.784177) (xy 236.784177 47.523971)
-        (xy 236.925 47.183994) (xy 236.925 46.816006) (xy 236.784177 46.476029) (xy 236.558148 46.25) (xy 236.784177 46.023971)
-        (xy 236.925 45.683994) (xy 236.925 45.316006) (xy 236.784177 44.976029) (xy 236.523971 44.715823) (xy 236.183994 44.575)
-        (xy 235.816006 44.575) (xy 235.5 44.705894) (xy 235.183994 44.575) (xy 234.816006 44.575) (xy 234.5 44.705894)
-        (xy 234.183994 44.575) (xy 233.816006 44.575) (xy 233.476029 44.715823) (xy 233.215823 44.976029) (xy 233.075 45.316006)
-        (xy 225.625 45.316006) (xy 225.625 42.5) (xy 225.577425 42.260823) (xy 225.441942 42.058058) (xy 225.239177 41.922575)
+        (xy 225.441942 59.941942) (xy 225.577425 59.739177) (xy 225.625 59.5) (xy 225.625 49) (xy 225.577425 48.760823)
+        (xy 225.570193 48.75) (xy 225.577425 48.739177) (xy 225.625 48.5) (xy 225.625 42.5) (xy 230.875 42.5)
+        (xy 230.875 48.5) (xy 230.922575 48.739177) (xy 231.058058 48.941942) (xy 231.260823 49.077425) (xy 231.5 49.125)
+        (xy 231.875 49.125) (xy 231.875 59.5) (xy 231.922575 59.739177) (xy 232.058058 59.941942) (xy 232.260823 60.077425)
+        (xy 232.5 60.125) (xy 237.5 60.125) (xy 237.739177 60.077425) (xy 237.941942 59.941942) (xy 238.077425 59.739177)
+        (xy 238.125 59.5) (xy 238.125 49) (xy 238.077425 48.760823) (xy 238.070193 48.75) (xy 238.077425 48.739177)
+        (xy 238.125 48.5) (xy 238.125 42.5) (xy 238.077425 42.260823) (xy 237.941942 42.058058) (xy 237.739177 41.922575)
+        (xy 237.5 41.875) (xy 231.5 41.875) (xy 231.260823 41.922575) (xy 231.058058 42.058058) (xy 230.922575 42.260823)
+        (xy 230.875 42.5) (xy 225.625 42.5) (xy 225.577425 42.260823) (xy 225.441942 42.058058) (xy 225.239177 41.922575)
         (xy 225 41.875) (xy 219 41.875) (xy 218.760823 41.922575) (xy 218.558058 42.058058) (xy 218.422575 42.260823)
         (xy 218.375 42.5) (xy 213.125 42.5) (xy 213.077425 42.260823) (xy 212.941942 42.058058) (xy 212.739177 41.922575)
         (xy 212.5 41.875) (xy 206.5 41.875) (xy 206.260823 41.922575) (xy 206.058058 42.058058) (xy 205.922575 42.260823)
@@ -7636,27 +7956,6 @@
       )
     )
   )
-  (zone (net 2) (net_name SUPPLY) (layer F.Cu) (tstamp 5B789985) (hatch edge 0.508)
-    (priority 1)
-    (connect_pads yes (clearance 0.5))
-    (min_thickness 0.25)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 231 42.5) (xy 231 48.5) (xy 237.5 48.5) (xy 237.5 42.5)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 237.375 48.336576) (xy 237.21 48.303756) (xy 236.6 48.303756) (xy 236.356137 48.352263) (xy 236.322109 48.375)
-        (xy 236.217891 48.375) (xy 236.183863 48.352263) (xy 235.94 48.303756) (xy 235.33 48.303756) (xy 235.086137 48.352263)
-        (xy 235.052109 48.375) (xy 234.947891 48.375) (xy 234.913863 48.352263) (xy 234.67 48.303756) (xy 234.06 48.303756)
-        (xy 233.816137 48.352263) (xy 233.782109 48.375) (xy 233.677891 48.375) (xy 233.643863 48.352263) (xy 233.4 48.303756)
-        (xy 232.79 48.303756) (xy 232.546137 48.352263) (xy 232.512109 48.375) (xy 231.125 48.375) (xy 231.125 42.625)
-        (xy 237.375 42.625)
-      )
-    )
-  )
   (zone (net 20) (net_name SH_C) (layer F.Cu) (tstamp 5B78B173) (hatch edge 0.508)
     (priority 1)
     (connect_pads yes (clearance 0.5))
@@ -7692,6 +7991,22 @@
     (filled_polygon
       (pts
         (xy 237.375 59.375) (xy 232.625 59.375) (xy 232.625 49.125) (xy 237.375 49.125)
+      )
+    )
+  )
+  (zone (net 2) (net_name SUPPLY) (layer B.Cu) (tstamp 5B792B9E) (hatch edge 0.508)
+    (priority 1)
+    (connect_pads yes (clearance 0.5))
+    (min_thickness 0.25)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 231.5 42.5) (xy 231.5 48.5) (xy 237.5 48.5) (xy 237.5 42.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 237.375 48.375) (xy 231.625 48.375) (xy 231.625 42.625) (xy 237.375 42.625)
       )
     )
   )
