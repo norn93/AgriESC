@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 109)
     (zones 0)
     (modules 307)
     (nets 112)
@@ -34,17 +34,25 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.4)
+    (user_trace_width 0.2)
+    (user_trace_width 0.3)
+    (user_trace_width 0.4)
+    (user_trace_width 0.6)
+    (user_trace_width 0.8)
+    (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.5)
     (zone_45_only no)
     (trace_min 0.2)
     (segment_width 0.2)
     (edge_width 0.1)
-    (via_size 0.8)
-    (via_drill 0.4)
+    (via_size 0.7)
+    (via_drill 0.3)
     (via_min_size 0.4)
     (via_min_drill 0.3)
+    (user_via 0.7 0.3)
+    (user_via 0.8 0.4)
     (uvia_size 0.3)
     (uvia_drill 0.1)
     (uvias_allowed no)
@@ -204,9 +212,9 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.25)
-    (via_dia 0.8)
-    (via_drill 0.4)
+    (trace_width 0.2)
+    (via_dia 0.7)
+    (via_drill 0.3)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net +5V)
@@ -322,8 +330,26 @@
     (add_net VCC)
   )
 
+  (net_class "Power 0.4" ""
+    (clearance 0.4)
+    (trace_width 0.4)
+    (via_dia 0.7)
+    (via_drill 0.3)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class "Power 0.8" ""
+    (clearance 0.8)
+    (trace_width 0.8)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79B529)
-    (at 233 59)
+    (at 144.25 34.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -335,7 +361,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79AFF9)
-    (at 233 58)
+    (at 144.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -347,7 +373,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79AACB)
-    (at 233 57)
+    (at 144.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -359,7 +385,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79A59F)
-    (at 234 58)
+    (at 145.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -371,7 +397,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79A075)
-    (at 234 57)
+    (at 145.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -383,7 +409,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B799B4D)
-    (at 235 58)
+    (at 146.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -395,7 +421,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B799627)
-    (at 235 57)
+    (at 146.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -407,7 +433,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B799103)
-    (at 236 58)
+    (at 147.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -419,7 +445,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B798BE1)
-    (at 236 57)
+    (at 147.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -431,7 +457,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B7986C1)
-    (at 237 58)
+    (at 148.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -443,7 +469,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B7981A3)
-    (at 237 57)
+    (at 148.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -455,7 +481,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B797C87)
-    (at 237 51)
+    (at 148.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -467,7 +493,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79776D)
-    (at 236 51)
+    (at 147.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -479,7 +505,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B797255)
-    (at 235 51)
+    (at 146.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -491,7 +517,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B796D3F)
-    (at 234 51)
+    (at 145.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -503,7 +529,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B686098) (tstamp 5B79630A)
-    (at 233 51)
+    (at 144.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -515,7 +541,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B795DEE)
-    (at 237 43)
+    (at 148.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -527,7 +553,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7958DE)
-    (at 236 43)
+    (at 147.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -539,7 +565,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7953D0)
-    (at 235 43)
+    (at 146.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -551,7 +577,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B794EC4)
-    (at 234 43)
+    (at 145.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -563,7 +589,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7949BA)
-    (at 233 43)
+    (at 144.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -575,7 +601,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793AA6)
-    (at 232 48)
+    (at 143.25 23.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -587,7 +613,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793AA2)
-    (at 232 47)
+    (at 143.25 22.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -599,7 +625,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793A9E)
-    (at 232 46)
+    (at 143.25 21.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -611,7 +637,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793A9A)
-    (at 232 45)
+    (at 143.25 20.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -623,7 +649,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B793A96)
-    (at 232 44)
+    (at 143.25 19.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -635,7 +661,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7921A8)
-    (at 232 43)
+    (at 143.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -647,7 +673,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D5B)
-    (at 230 54.5)
+    (at 141.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -659,7 +685,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D57)
-    (at 229 54.5)
+    (at 140.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -671,7 +697,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D53)
-    (at 228 54.5)
+    (at 139.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -683,7 +709,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D4F)
-    (at 227 54.5)
+    (at 138.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -695,7 +721,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D4B)
-    (at 226 54.5)
+    (at 137.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -707,7 +733,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D43)
-    (at 230 53.5)
+    (at 141.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -719,7 +745,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D3F)
-    (at 229 53.5)
+    (at 140.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -731,7 +757,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D3B)
-    (at 228 53.5)
+    (at 139.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -743,7 +769,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D37)
-    (at 227 53.5)
+    (at 138.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -755,7 +781,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D33)
-    (at 226 53.5)
+    (at 137.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -767,7 +793,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D2B)
-    (at 230 52.5)
+    (at 141.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -779,7 +805,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D27)
-    (at 229 52.5)
+    (at 140.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -791,7 +817,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D23)
-    (at 228 52.5)
+    (at 139.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -803,7 +829,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D1F)
-    (at 227 52.5)
+    (at 138.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -815,7 +841,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D1B)
-    (at 226 52.5)
+    (at 137.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -827,7 +853,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D17)
-    (at 231 51.5)
+    (at 142.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -839,7 +865,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D13)
-    (at 230 51.5)
+    (at 141.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -851,7 +877,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D0F)
-    (at 229 51.5)
+    (at 140.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -863,7 +889,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D0B)
-    (at 228 51.5)
+    (at 139.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -875,7 +901,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D07)
-    (at 227 51.5)
+    (at 138.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -887,7 +913,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790D03)
-    (at 226 51.5)
+    (at 137.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -899,7 +925,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CFF)
-    (at 231 50.5)
+    (at 142.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -911,7 +937,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CFB)
-    (at 230 50.5)
+    (at 141.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -923,7 +949,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CF7)
-    (at 229 50.5)
+    (at 140.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -935,7 +961,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CF3)
-    (at 228 50.5)
+    (at 139.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -947,7 +973,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CEF)
-    (at 227 50.5)
+    (at 138.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -959,7 +985,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CEB)
-    (at 226 50.5)
+    (at 137.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -971,7 +997,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CE7)
-    (at 231 49.5)
+    (at 142.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -983,7 +1009,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CE3)
-    (at 230 49.5)
+    (at 141.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -995,7 +1021,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CDF)
-    (at 229 49.5)
+    (at 140.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1007,7 +1033,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CDB)
-    (at 228 49.5)
+    (at 139.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1019,7 +1045,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B790CD7)
-    (at 227 49.5)
+    (at 138.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1031,7 +1057,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B79081B)
-    (at 226 49.5)
+    (at 137.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1043,7 +1069,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78817B)
-    (at 217.5 54.5)
+    (at 129.25 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1055,7 +1081,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788177)
-    (at 216.5 54.5)
+    (at 128.25 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1067,7 +1093,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788173)
-    (at 215.5 54.5)
+    (at 127.25 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1079,7 +1105,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78816F)
-    (at 214.5 54.5)
+    (at 126.25 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1091,7 +1117,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78816B)
-    (at 213.5 54.5)
+    (at 125.25 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1103,7 +1129,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788163)
-    (at 217.5 53.5)
+    (at 129.25 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1115,7 +1141,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78815F)
-    (at 216.5 53.5)
+    (at 128.25 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1127,7 +1153,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78815B)
-    (at 215.5 53.5)
+    (at 127.25 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1139,7 +1165,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788157)
-    (at 214.5 53.5)
+    (at 126.25 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1151,7 +1177,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788153)
-    (at 213.5 53.5)
+    (at 125.25 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1163,7 +1189,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78814B)
-    (at 217.5 52.5)
+    (at 129.25 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1175,7 +1201,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788147)
-    (at 216.5 52.5)
+    (at 128.25 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1187,7 +1213,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788143)
-    (at 215.5 52.5)
+    (at 127.25 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1199,7 +1225,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78813F)
-    (at 214.5 52.5)
+    (at 126.25 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1211,7 +1237,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78813B)
-    (at 213.5 52.5)
+    (at 125.25 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1223,7 +1249,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788137)
-    (at 218.5 51.5)
+    (at 130.25 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1235,7 +1261,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788133)
-    (at 217.5 51.5)
+    (at 129.25 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1247,7 +1273,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78812F)
-    (at 216.5 51.5)
+    (at 128.25 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1259,7 +1285,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78812B)
-    (at 215.5 51.5)
+    (at 127.25 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1271,7 +1297,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788127)
-    (at 214.5 51.5)
+    (at 126.25 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1283,7 +1309,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788123)
-    (at 213.5 51.5)
+    (at 125.25 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1295,7 +1321,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78811F)
-    (at 218.5 50.5)
+    (at 130.25 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1307,7 +1333,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78811B)
-    (at 217.5 50.5)
+    (at 129.25 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1319,7 +1345,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788117)
-    (at 216.5 50.5)
+    (at 128.25 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1331,7 +1357,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788113)
-    (at 215.5 50.5)
+    (at 127.25 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1343,7 +1369,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78810F)
-    (at 214.5 50.5)
+    (at 126.25 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1355,7 +1381,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B78810B)
-    (at 213.5 50.5)
+    (at 125.25 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1367,7 +1393,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788107)
-    (at 218.5 49.5)
+    (at 130.25 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1379,7 +1405,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B788103)
-    (at 217.5 49.5)
+    (at 129.25 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1391,7 +1417,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B7880FF)
-    (at 216.5 49.5)
+    (at 128.25 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1403,7 +1429,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B7880FB)
-    (at 215.5 49.5)
+    (at 127.25 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1415,7 +1441,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B7880F7)
-    (at 214.5 49.5)
+    (at 126.25 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1427,7 +1453,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B787C7D)
-    (at 213.5 49.5)
+    (at 125.25 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1439,7 +1465,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B785B3C)
-    (at 219.5 48)
+    (at 130.75 23.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1451,7 +1477,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B785686)
-    (at 219.5 47)
+    (at 130.75 22.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1463,7 +1489,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7851D2)
-    (at 219.5 46)
+    (at 130.75 21.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1475,7 +1501,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B784D20)
-    (at 219.5 45)
+    (at 130.75 20.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1487,7 +1513,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B784870)
-    (at 219.5 44)
+    (at 130.75 19.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1499,7 +1525,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7843C2)
-    (at 219.5 43)
+    (at 130.75 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1511,7 +1537,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B783F16)
-    (at 220.5 43)
+    (at 131.75 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1523,7 +1549,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B783A6C)
-    (at 221.5 43)
+    (at 132.75 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1535,7 +1561,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B7835C4)
-    (at 222.5 43)
+    (at 133.75 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1547,7 +1573,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B78311E)
-    (at 223.5 43)
+    (at 134.75 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1559,7 +1585,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685E87) (tstamp 5B77C4C2)
-    (at 224.5 43)
+    (at 135.75 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1571,7 +1597,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B77A897)
-    (at 224.5 58)
+    (at 135.75 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1583,7 +1609,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B77A3F7)
-    (at 223.5 58)
+    (at 134.75 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1595,7 +1621,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B779F59)
-    (at 222.5 58)
+    (at 133.75 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1607,7 +1633,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B779ABD)
-    (at 221.5 58)
+    (at 132.75 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1619,7 +1645,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B779623)
-    (at 220.5 59)
+    (at 131.75 34.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1631,7 +1657,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B77918B)
-    (at 220.5 58)
+    (at 131.75 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1643,7 +1669,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B778CF5)
-    (at 220.5 57)
+    (at 131.75 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1655,7 +1681,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B778861)
-    (at 221.5 57)
+    (at 132.75 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1667,7 +1693,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B7783CF)
-    (at 222.5 57)
+    (at 133.75 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1679,7 +1705,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B777F3F)
-    (at 223.5 57)
+    (at 134.75 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1691,7 +1717,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B777AB1)
-    (at 224.5 57)
+    (at 135.75 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1703,7 +1729,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B777625)
-    (at 224.5 51)
+    (at 135.75 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1715,7 +1741,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B77719B)
-    (at 223.5 51)
+    (at 134.75 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1727,7 +1753,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B776D13)
-    (at 222.5 51)
+    (at 133.75 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1739,7 +1765,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B77688D)
-    (at 221.5 51)
+    (at 132.75 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1751,7 +1777,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685D8F) (tstamp 5B775F77)
-    (at 220.5 51)
+    (at 131.75 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1763,7 +1789,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76D6DD)
-    (at 212 43)
+    (at 123.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1775,7 +1801,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76D29D)
-    (at 211 43)
+    (at 122.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1787,7 +1813,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76CE5F)
-    (at 210 43)
+    (at 121.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1799,7 +1825,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76CA23)
-    (at 209 43)
+    (at 120.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1811,7 +1837,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76C5E9)
-    (at 208 43)
+    (at 119.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1823,7 +1849,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76C1B1)
-    (at 207 43)
+    (at 118.25 18.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1835,7 +1861,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76BD7B)
-    (at 207 44)
+    (at 118.25 19.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1847,7 +1873,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76B947)
-    (at 207 45)
+    (at 118.25 20.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1859,7 +1885,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76B515)
-    (at 207 46)
+    (at 118.25 21.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1871,7 +1897,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76B0E5)
-    (at 207 47)
+    (at 118.25 22.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1883,7 +1909,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685B24) (tstamp 5B76A014)
-    (at 207 48)
+    (at 118.25 23.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1895,7 +1921,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765ECD)
-    (at 205 54.5)
+    (at 116.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1907,7 +1933,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EC9)
-    (at 204 54.5)
+    (at 115.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1919,7 +1945,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EC5)
-    (at 203 54.5)
+    (at 114.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1931,7 +1957,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EC1)
-    (at 202 54.5)
+    (at 113.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1943,7 +1969,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EBD)
-    (at 201 54.5)
+    (at 112.75 30)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1955,7 +1981,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EB5)
-    (at 205 53.5)
+    (at 116.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1967,7 +1993,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EB1)
-    (at 204 53.5)
+    (at 115.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1979,7 +2005,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EAD)
-    (at 203 53.5)
+    (at 114.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1991,7 +2017,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EA9)
-    (at 202 53.5)
+    (at 113.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2003,7 +2029,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765EA5)
-    (at 201 53.5)
+    (at 112.75 29)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2015,7 +2041,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E9D)
-    (at 205 52.5)
+    (at 116.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2027,7 +2053,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E99)
-    (at 204 52.5)
+    (at 115.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2039,7 +2065,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E95)
-    (at 203 52.5)
+    (at 114.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2051,7 +2077,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E91)
-    (at 202 52.5)
+    (at 113.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2063,7 +2089,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E8D)
-    (at 201 52.5)
+    (at 112.75 28)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2075,7 +2101,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E85)
-    (at 205 51.5)
+    (at 116.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2087,7 +2113,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E81)
-    (at 204 51.5)
+    (at 115.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2099,7 +2125,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E7D)
-    (at 203 51.5)
+    (at 114.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2111,7 +2137,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E79)
-    (at 202 51.5)
+    (at 113.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2123,7 +2149,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E75)
-    (at 201 51.5)
+    (at 112.75 27)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2135,7 +2161,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E71)
-    (at 206 50.5)
+    (at 117.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2147,7 +2173,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E6D)
-    (at 205 50.5)
+    (at 116.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2159,7 +2185,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E69)
-    (at 204 50.5)
+    (at 115.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2171,7 +2197,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E65)
-    (at 203 50.5)
+    (at 114.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2183,7 +2209,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E61)
-    (at 202 50.5)
+    (at 113.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2195,7 +2221,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E5D)
-    (at 201 50.5)
+    (at 112.75 26)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2207,7 +2233,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E59)
-    (at 206 49.5)
+    (at 117.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2219,7 +2245,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E55)
-    (at 205 49.5)
+    (at 116.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2231,7 +2257,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E51)
-    (at 204 49.5)
+    (at 115.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2243,7 +2269,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E4D)
-    (at 203 49.5)
+    (at 114.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2255,7 +2281,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B765E49)
-    (at 202 49.5)
+    (at 113.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2267,7 +2293,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685A4D) (tstamp 5B766313)
-    (at 201 49.5)
+    (at 112.75 25)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2279,7 +2305,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B763DAF)
-    (at 212 58)
+    (at 123.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2291,7 +2317,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B7639BB)
-    (at 211 58)
+    (at 122.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2303,7 +2329,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B7635C9)
-    (at 210 58)
+    (at 121.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2315,7 +2341,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B7631D9)
-    (at 209 58)
+    (at 120.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2327,7 +2353,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B762DEB)
-    (at 208 59)
+    (at 119.25 34.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2339,7 +2365,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B7629FF)
-    (at 208 58)
+    (at 119.25 33.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2351,7 +2377,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B7611F8)
-    (at 208 57)
+    (at 119.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2363,7 +2389,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B760A1E)
-    (at 212 57)
+    (at 123.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2375,7 +2401,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B760638)
-    (at 211 57)
+    (at 122.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2387,7 +2413,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B760254)
-    (at 210 57)
+    (at 121.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2399,7 +2425,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B75FE72)
-    (at 209 57)
+    (at 120.25 32.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2411,7 +2437,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B75D65E)
-    (at 212 51)
+    (at 123.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2423,7 +2449,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B75D274)
-    (at 211 51)
+    (at 122.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2435,7 +2461,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B75CE8C)
-    (at 210 51)
+    (at 121.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2447,7 +2473,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B75CAA6)
-    (at 209 51)
+    (at 120.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2459,18 +2485,18 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B68D431)
-    (at 121.425001 98.075001)
+    (at 113.725 23 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5B6FA321)
     (attr smd)
-    (fp_text reference C1 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C1 (at 0 -1.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4u7_35V (at 0 1.65) (layer F.Fab)
+    (fp_text value 4u7_35V (at 0 1.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -2483,9 +2509,9 @@
     (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 SL_A))
-    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 2 SUPPLY))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -2495,15 +2521,15 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B68D442)
-    (at 101.335001 108.425001)
+    (at 113.75 21 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5B6FA3D9)
     (attr smd)
-    (fp_text reference C2 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C2 (at 0 -1.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4u7_35V (at 0 1.65) (layer F.Fab)
+    (fp_text value 4u7_35V (at 0 1.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -2516,12 +2542,12 @@
     (fp_line (start -1.85 -0.95) (end 1.85 -0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.85 -0.95) (end 1.85 0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 2 SUPPLY))
-    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 SL_A))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -2531,18 +2557,18 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B68D453)
-    (at 121.625001 90.665001)
+    (at 127.275 23 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C8BA732)
     (attr smd)
-    (fp_text reference C3 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C3 (at 0 -1.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4u7_35V (at 0 1.65) (layer F.Fab)
+    (fp_text value 4u7_35V (at 0 1.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -2555,9 +2581,9 @@
     (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 SL_A))
-    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 2 SUPPLY))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -2567,15 +2593,15 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B68D464)
-    (at 101.335001 106.475001)
+    (at 127.25 21 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C8BA739)
     (attr smd)
-    (fp_text reference C4 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C4 (at 0 -1.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4u7_35V (at 0 1.65) (layer F.Fab)
+    (fp_text value 4u7_35V (at 0 1.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -2588,12 +2614,12 @@
     (fp_line (start -1.85 -0.95) (end 1.85 -0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.85 -0.95) (end 1.85 0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 2 SUPPLY))
-    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 SL_A))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -2602,19 +2628,19 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B68D475)
-    (at 104.235001 114.265001)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B6ACF87)
+    (at 139.775 23 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C8F9304)
     (attr smd)
-    (fp_text reference C5 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C5 (at 0 -1.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4u7_35V (at 0 1.65) (layer F.Fab)
+    (fp_text value 4u7_35V (at 0 1.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -2627,9 +2653,9 @@
     (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 SL_A))
-    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 2 SUPPLY))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -2639,15 +2665,15 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5B68D486)
-    (at 125.375001 90.665001)
+    (at 139.775 21 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C8F930B)
     (attr smd)
-    (fp_text reference C6 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C6 (at 0 -1.65 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4u7_35V (at 0 1.65) (layer F.Fab)
+    (fp_text value 4u7_35V (at 0 1.65 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -2660,12 +2686,12 @@
     (fp_line (start -1.85 -0.95) (end 1.85 -0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.85 -0.95) (end 1.85 0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 180) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 1 smd roundrect (at -1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 2 SUPPLY))
-    (pad 2 smd roundrect (at 1.025 0) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 SL_A))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -2675,7 +2701,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF1) (tstamp 5B68D552)
-    (at 203.5 33)
+    (at 114.75 8.5)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
     (path /5C0DB22D)
@@ -2897,7 +2923,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF1) (tstamp 5B7718D8)
-    (at 229.5 33.5)
+    (at 140.75 9)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
     (path /5C0DB5EC)
@@ -3118,16 +3144,16 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5B68D62F)
-    (at 134.705001 91.425001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5B72D36A)
+    (at 119 37.5 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5B61AB87)
     (attr smd)
-    (fp_text reference C9 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference C9 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 0.1u (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -3140,12 +3166,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 VAA))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 SL_A))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -3155,15 +3181,15 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5B68D640)
-    (at 125.685001 101.395001)
+    (at 131.5 37.5 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C8BA70E)
     (attr smd)
-    (fp_text reference C10 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 0.1u (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -3176,12 +3202,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 VAA))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 SL_A))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -3190,16 +3216,16 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5B68D651)
-    (at 125.685001 99.885001)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5B731832)
+    (at 144 37.5 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5C8F92E0)
     (attr smd)
-    (fp_text reference C11 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference C11 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1u (at 0 1.43) (layer F.Fab)
+    (fp_text value 0.1u (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -3212,12 +3238,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 VAA))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 SL_A))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -4861,7 +4887,7 @@
   )
 
   (module AgriESC:XT30PW-F (layer F.Cu) (tedit 5B65763E) (tstamp 5B68D977)
-    (at 218.5 39.5)
+    (at 129.75 15)
     (path /5C7BF897)
     (fp_text reference J1 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4913,7 +4939,7 @@
   )
 
   (module Connector_Wire:SolderWirePad_1x01_SMD_5x10mm (layer F.Cu) (tedit 5640A485) (tstamp 5B68D981)
-    (at 210.5 89.5)
+    (at 121.75 50.5)
     (descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
     (tags "MesurementPoint Square SMDPad 5mmx10mm ")
     (path /5B54B5EA)
@@ -4936,7 +4962,7 @@
   )
 
   (module Connector_Wire:SolderWirePad_1x01_SMD_5x10mm (layer F.Cu) (tedit 5640A485) (tstamp 5B68D98B)
-    (at 220.5 89.5)
+    (at 134.25 50.5)
     (descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
     (tags "MesurementPoint Square SMDPad 5mmx10mm ")
     (path /5C8BA6C9)
@@ -4959,7 +4985,7 @@
   )
 
   (module Connector_Wire:SolderWirePad_1x01_SMD_5x10mm (layer F.Cu) (tedit 5640A485) (tstamp 5B68D995)
-    (at 230.5 89.5)
+    (at 146.75 50.5)
     (descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
     (tags "MesurementPoint Square SMDPad 5mmx10mm ")
     (path /5C8F929B)
@@ -5328,7 +5354,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B7596C5)
-    (at 210.5 62.5 270)
+    (at 121.75 38 270)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5B54BEDF)
@@ -5364,7 +5390,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DA76)
-    (at 223 62.5 270)
+    (at 134.25 38 270)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C8BA6D0)
@@ -5400,7 +5426,7 @@
   )
 
   (module Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B78D331)
-    (at 235.5 62.5 270)
+    (at 146.75 38 270)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C8F92A2)
@@ -5436,18 +5462,18 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DA98)
-    (at 117.315001 112.855001)
+    (at 114.5 45.25 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5B5BCD23)
     (attr smd)
-    (fp_text reference R7 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R7 (at 0 -1.43 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 59k (at 0 1.43) (layer F.Fab)
+    (fp_text value 59k (at 0 1.43 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
@@ -5460,9 +5486,9 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 63 "Net-(R13-Pad1)"))
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 270) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 64 C_A))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -5471,19 +5497,19 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DAA9)
-    (at 114.585001 116.775001)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B705459)
+    (at 127 45.125 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C8BA6F0)
     (attr smd)
-    (fp_text reference R8 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R8 (at 0 -1.43 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 59k (at 0 1.43) (layer F.Fab)
+    (fp_text value 59k (at 0 1.43 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
@@ -5496,9 +5522,9 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 65 "Net-(R14-Pad1)"))
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 270) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 66 C_B))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -5508,15 +5534,15 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DABA)
-    (at 138.055001 92.935001)
+    (at 139.5 45.25 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C8F92C2)
     (attr smd)
-    (fp_text reference R9 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R9 (at 0 -1.43 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 59k (at 0 1.43) (layer F.Fab)
+    (fp_text value 59k (at 0 1.43 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -5529,12 +5555,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 270) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 270) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 67 C_C))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 270) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 68 "Net-(R15-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -5651,16 +5677,16 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DAFE)
-    (at 135.735001 100.485001)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B72EE51)
+    (at 116.5 45.25 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5B5BCE3E)
     (attr smd)
-    (fp_text reference R13 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R13 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0 1.43) (layer F.Fab)
+    (fp_text value 1k (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -5673,12 +5699,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 63 "Net-(R13-Pad1)"))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 75 "Net-(R13-Pad2)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -5687,16 +5713,16 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DB0F)
-    (at 114.125001 118.285001)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B6B1ADD)
+    (at 129 45.125 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C8BA6F7)
     (attr smd)
-    (fp_text reference R14 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R14 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0 1.43) (layer F.Fab)
+    (fp_text value 1k (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -5709,12 +5735,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 65 "Net-(R14-Pad1)"))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 76 "Net-(R14-Pad2)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -5724,18 +5750,18 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5B68DB20)
-    (at 125.685001 105.925001)
+    (at 141.5 45.25 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5C8F92C9)
     (attr smd)
-    (fp_text reference R15 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference R15 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 0 1.43) (layer F.Fab)
+    (fp_text value 1k (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
@@ -5748,9 +5774,9 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 77 "Net-(R15-Pad2)"))
-    (pad 1 smd roundrect (at -0.875 0) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.875 0 90) (size 1.05 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 68 "Net-(R15-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -6768,7 +6794,7 @@
   )
 
   (module Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels (layer F.Cu) (tedit 5B391ED1) (tstamp 5B68DD11)
-    (at 76.825001 116.845001)
+    (at 73.05 114.5)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers")
     (tags "solder jumper open")
     (path /5B60714B)
@@ -6820,7 +6846,7 @@
   )
 
   (module AgriESC:FDMS7698 (layer F.Cu) (tedit 5B684D85) (tstamp 5B68DD26)
-    (at 210 47)
+    (at 121.25 22.5)
     (path /5B567B38)
     (fp_text reference U1 (at 0 5.276) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6863,7 +6889,7 @@
   )
 
   (module AgriESC:FDMS7698 (layer F.Cu) (tedit 5B684D85) (tstamp 5B758A2A)
-    (at 222.5 47)
+    (at 133.75 22.5)
     (path /5C8BA751)
     (fp_text reference U2 (at 0 5.276) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6906,7 +6932,7 @@
   )
 
   (module AgriESC:FDMS7698 (layer F.Cu) (tedit 5B684D85) (tstamp 5B68DD50)
-    (at 235 47)
+    (at 146.25 22.5)
     (path /5C8F9323)
     (fp_text reference U3 (at 0 5.276) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6949,7 +6975,7 @@
   )
 
   (module AgriESC:FDMS7698 (layer F.Cu) (tedit 5B684D85) (tstamp 5B68DD65)
-    (at 209 54 270)
+    (at 120.25 29.5 270)
     (path /5B567D17)
     (fp_text reference U4 (at 0 5.276 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6992,7 +7018,7 @@
   )
 
   (module AgriESC:FDMS7698 (layer F.Cu) (tedit 5B684D85) (tstamp 5B68DD7A)
-    (at 221.5 54 270)
+    (at 132.75 29.5 270)
     (path /5C8BA758)
     (fp_text reference U5 (at 0 5.276 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7035,7 +7061,7 @@
   )
 
   (module AgriESC:FDMS7698 (layer F.Cu) (tedit 5B684D85) (tstamp 5B68DD8F)
-    (at 234 54 270)
+    (at 145.25 29.5 270)
     (path /5C8F932A)
     (fp_text reference U6 (at 0 5.276 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7078,12 +7104,12 @@
   )
 
   (module AgriESC:MAX9920 (layer F.Cu) (tedit 5B63B7BE) (tstamp 5B690538)
-    (at 179 62.5)
+    (at 115.5 39.5 270)
     (path /5B54B439)
-    (fp_text reference U7 (at 0 3.81) (layer F.SilkS)
+    (fp_text reference U7 (at 0 3.81 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX9920 (at 0 5.715) (layer F.Fab)
+    (fp_text value MAX9920 (at 0 5.715 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center -1.4 -2) (end -1.2 -2) (layer F.SilkS) (width 0.15))
@@ -7095,33 +7121,33 @@
     (fp_line (start -2 0.2) (end -2 -0.2) (layer F.SilkS) (width 0.15))
     (fp_line (start -2 2.5) (end 2 2.5) (layer F.SilkS) (width 0.15))
     (fp_line (start -2 -2.5) (end 2 -2.5) (layer F.SilkS) (width 0.15))
-    (pad 4 smd rect (at 0 0) (size 2.413 3.099) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 0 0 270) (size 2.413 3.099) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 8 smd rect (at 2.6545 -1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at 2.6545 -1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 3 VAA))
-    (pad 7 smd rect (at 2.6545 -0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at 2.6545 -0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 75 "Net-(R13-Pad2)"))
-    (pad 6 smd rect (at 2.6545 0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at 2.6545 0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(R13-Pad1)"))
-    (pad 5 smd rect (at 2.6545 1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 2.6545 1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 64 C_A))
-    (pad 4 smd rect (at -2.6545 1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at -2.6545 1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 3 smd rect (at -2.6545 0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at -2.6545 0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 2 smd rect (at -2.6545 -0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -2.6545 -0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(J2-Pad1)"))
-    (pad 1 smd rect (at -2.6545 -1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.6545 -1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 12 SH_A))
   )
 
   (module AgriESC:MAX9920 (layer F.Cu) (tedit 5B63B7BE) (tstamp 5B6904F9)
-    (at 179 52.5)
+    (at 128 39.5 270)
     (path /5C8BA6C2)
-    (fp_text reference U8 (at 0 3.81) (layer F.SilkS)
+    (fp_text reference U8 (at 0 3.81 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX9920 (at 0 5.715) (layer F.Fab)
+    (fp_text value MAX9920 (at 0 5.715 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -2.5) (end 2 -2.5) (layer F.SilkS) (width 0.15))
@@ -7133,33 +7159,33 @@
     (fp_line (start 2 0.2) (end 2 -0.2) (layer F.SilkS) (width 0.15))
     (fp_line (start 2 -1) (end 2 -1.4) (layer F.SilkS) (width 0.15))
     (fp_circle (center -1.4 -2) (end -1.2 -2) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -2.6545 -1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.6545 -1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 16 SH_B))
-    (pad 2 smd rect (at -2.6545 -0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -2.6545 -0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(J3-Pad1)"))
-    (pad 3 smd rect (at -2.6545 0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at -2.6545 0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 4 smd rect (at -2.6545 1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at -2.6545 1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 5 smd rect (at 2.6545 1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 2.6545 1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 66 C_B))
-    (pad 6 smd rect (at 2.6545 0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at 2.6545 0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 65 "Net-(R14-Pad1)"))
-    (pad 7 smd rect (at 2.6545 -0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at 2.6545 -0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 76 "Net-(R14-Pad2)"))
-    (pad 8 smd rect (at 2.6545 -1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at 2.6545 -1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 3 VAA))
-    (pad 4 smd rect (at 0 0) (size 2.413 3.099) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 0 0 270) (size 2.413 3.099) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
   )
 
   (module AgriESC:MAX9920 (layer F.Cu) (tedit 5B63B7BE) (tstamp 5B6904BA)
-    (at 179 73.5)
+    (at 140.5 39.5 270)
     (path /5C8F9294)
-    (fp_text reference U9 (at 0 3.81) (layer F.SilkS)
+    (fp_text reference U9 (at 0 3.81 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MAX9920 (at 0 5.715) (layer F.Fab)
+    (fp_text value MAX9920 (at 0 5.715 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2 -2.5) (end 2 -2.5) (layer F.SilkS) (width 0.15))
@@ -7171,23 +7197,23 @@
     (fp_line (start 2 0.2) (end 2 -0.2) (layer F.SilkS) (width 0.15))
     (fp_line (start 2 -1) (end 2 -1.4) (layer F.SilkS) (width 0.15))
     (fp_circle (center -1.4 -2) (end -1.2 -2) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -2.6545 -1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.6545 -1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 20 SH_C))
-    (pad 2 smd rect (at -2.6545 -0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -2.6545 -0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 34 "Net-(J4-Pad1)"))
-    (pad 3 smd rect (at -2.6545 0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at -2.6545 0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 4 smd rect (at -2.6545 1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at -2.6545 1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
-    (pad 5 smd rect (at 2.6545 1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 2.6545 1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 67 C_C))
-    (pad 6 smd rect (at 2.6545 0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at 2.6545 0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 68 "Net-(R15-Pad1)"))
-    (pad 7 smd rect (at 2.6545 -0.635) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at 2.6545 -0.635 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 77 "Net-(R15-Pad2)"))
-    (pad 8 smd rect (at 2.6545 -1.905) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at 2.6545 -1.905 270) (size 1.6 0.533) (layers F.Cu F.Paste F.Mask)
       (net 3 VAA))
-    (pad 4 smd rect (at 0 0) (size 2.413 3.099) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 0 0 270) (size 2.413 3.099) (layers F.Cu F.Paste F.Mask)
       (net 1 SL_A))
   )
 
@@ -7685,7 +7711,7 @@
   )
 
   (module AgriESC:VIA-0.6mm (layer F.Cu) (tedit 5B685958) (tstamp 5B7534D3)
-    (at 208 51)
+    (at 119.25 26.5)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7696,6 +7722,116 @@
       (net 12 SH_A) (zone_connect 2))
   )
 
+  (segment (start 112.725 22.975) (end 112.7 23) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 112.725 21) (end 112.725 22.975) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 112.95 24.55) (end 112.5 25) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 112.7 23) (end 112.7 24.55) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 138.75 21) (end 138.75 23) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 139.25 24.5) (end 138.75 25) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 138.75 23) (end 138.75 24.5) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 126.225 22.975) (end 126.25 23) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 126.225 21) (end 126.225 22.975) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 126.75 24.5) (end 126.25 25) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 126.25 23) (end 126.25 24.5) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 127.365 38.865) (end 128 39.5) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 127.365 36.8455) (end 127.365 38.865) (width 0.25) (layer F.Cu) (net 1))
+  (segment (start 126.095 36.8455) (end 126.095 36.405) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 126.095 36.405) (end 126.75 35.75) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 126.75 35.75) (end 127.25 35.25) (width 0.4) (layer B.Cu) (net 1))
+  (via (at 126.75 35.75) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (segment (start 127.25 35.25) (end 127.25 30) (width 0.4) (layer B.Cu) (net 1))
+  (segment (start 127.365 36.8455) (end 127.365 36.365) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 127.365 36.365) (end 126.75 35.75) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 126.75 35.75) (end 126.75 59.5) (width 0.4) (layer B.Cu) (net 1))
+  (segment (start 130.62499 37.50001) (end 131.5 36.625) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 130.62499 37.776468) (end 130.62499 37.50001) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 128.901458 39.5) (end 130.62499 37.776468) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 128 39.5) (end 128.901458 39.5) (width 0.4) (layer F.Cu) (net 1))
+  (segment (start 114.775 22.975) (end 114.75 23) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 114.775 21) (end 114.775 22.975) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 117.75 21) (end 118.25 20.5) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 114.775 21) (end 117.75 21) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 121.996 21) (end 121.25 21.746) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 140.8 23) (end 140.8 21) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 142.75 21) (end 143.25 20.5) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 140.8 21) (end 142.75 21) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 128.3 21.025) (end 128.275 21) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 128.3 23) (end 128.3 21.025) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 130.25 21) (end 130.75 20.5) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 128.275 21) (end 130.25 21) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 129.905 40.9545) (end 129.905 42.1545) (width 0.4) (layer F.Cu) (net 3))
+  (segment (start 130.25 39.05) (end 130.25 40.6095) (width 0.4) (layer F.Cu) (net 3))
+  (segment (start 130.925 38.375) (end 130.25 39.05) (width 0.4) (layer F.Cu) (net 3))
+  (segment (start 130.25 40.6095) (end 129.905 40.9545) (width 0.4) (layer F.Cu) (net 3))
+  (segment (start 131.5 38.375) (end 130.925 38.375) (width 0.4) (layer F.Cu) (net 3))
+  (via (at 130 43.5) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 3))
+  (segment (start 129.905 43.405) (end 130 43.5) (width 0.4) (layer F.Cu) (net 3))
+  (segment (start 129.905 42.1545) (end 129.905 43.405) (width 0.4) (layer F.Cu) (net 3))
+  (segment (start 130 43.5) (end 130.25 43.75) (width 0.4) (layer B.Cu) (net 3))
+  (segment (start 130.25 43.75) (end 130.25 59.5) (width 0.4) (layer B.Cu) (net 3))
+  (segment (start 129.905 36.345) (end 131.75 34.5) (width 0.2) (layer F.Cu) (net 16))
+  (segment (start 129.905 36.8455) (end 129.905 36.345) (width 0.4) (layer F.Cu) (net 16))
+  (segment (start 125.25 35.787998) (end 127.537998 33.5) (width 0.2) (layer F.Cu) (net 16))
+  (segment (start 127.537998 33.5) (end 131.75 33.5) (width 0.2) (layer F.Cu) (net 16))
+  (via (at 125.25 38) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 16))
+  (segment (start 125.25 38) (end 125.25 35.787998) (width 0.2) (layer F.Cu) (net 16))
+  (segment (start 124.900001 38.349999) (end 124.900001 38.900001) (width 0.2) (layer B.Cu) (net 16))
+  (segment (start 125.25 38) (end 124.900001 38.349999) (width 0.2) (layer B.Cu) (net 16))
+  (segment (start 124.900001 38.900001) (end 125.25 39.25) (width 0.2) (layer B.Cu) (net 16))
+  (segment (start 125.25 39.25) (end 125.25 59.5) (width 0.2) (layer B.Cu) (net 16))
+  (segment (start 121.75 40.9875) (end 121.75 50.5) (width 0.4) (layer F.Cu) (net 32))
+  (segment (start 134.25 40.5) (end 134.25 40.9875) (width 0.2) (layer F.Cu) (net 33))
+  (via (at 129.20074 35.712532) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 33))
+  (segment (start 128.635 36.278272) (end 129.20074 35.712532) (width 0.2) (layer F.Cu) (net 33))
+  (segment (start 128.635 36.8455) (end 128.635 36.278272) (width 0.2) (layer F.Cu) (net 33))
+  (via (at 133.25 39.75) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 33))
+  (segment (start 133.238208 39.75) (end 133.25 39.75) (width 0.2) (layer B.Cu) (net 33))
+  (segment (start 129.20074 35.712532) (end 133.238208 39.75) (width 0.2) (layer B.Cu) (net 33))
+  (segment (start 133.25 39.9875) (end 134.25 40.9875) (width 0.2) (layer F.Cu) (net 33))
+  (segment (start 133.25 39.75) (end 133.25 39.9875) (width 0.2) (layer F.Cu) (net 33))
+  (segment (start 134.25 40.9875) (end 134.25 50.5) (width 0.4) (layer F.Cu) (net 33))
+  (segment (start 146.75 40.9875) (end 146.75 50.5) (width 0.4) (layer F.Cu) (net 34))
+  (segment (start 123.66 25.076) (end 124.25 25.666) (width 0.2) (layer F.Cu) (net 57))
+  (segment (start 123.155 25.076) (end 123.66 25.076) (width 0.2) (layer F.Cu) (net 57))
+  (segment (start 124.25 25.666) (end 124.25 36) (width 0.2) (layer F.Cu) (net 57))
+  (via (at 124.083883 36.512689) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 57))
+  (segment (start 124.25 36.346572) (end 124.083883 36.512689) (width 0.2) (layer F.Cu) (net 57))
+  (segment (start 124.25 36) (end 124.25 36.346572) (width 0.2) (layer F.Cu) (net 57))
+  (segment (start 123.733884 36.862688) (end 123.733884 39.233884) (width 0.2) (layer B.Cu) (net 57))
+  (segment (start 124.083883 36.512689) (end 123.733884 36.862688) (width 0.2) (layer B.Cu) (net 57))
+  (segment (start 123.733884 39.233884) (end 124.25 39.75) (width 0.2) (layer B.Cu) (net 57))
+  (segment (start 124.25 39.75) (end 124.25 59.5) (width 0.2) (layer B.Cu) (net 57))
+  (segment (start 136.21 25.076) (end 136.75 25.616) (width 0.25) (layer F.Cu) (net 59))
+  (segment (start 135.655 25.076) (end 136.21 25.076) (width 0.25) (layer F.Cu) (net 59))
+  (segment (start 136.75 25.616) (end 136.75 36) (width 0.25) (layer F.Cu) (net 59))
+  (segment (start 148.71 25.076) (end 149.5 25.866) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 148.155 25.076) (end 148.71 25.076) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 149.5 25.866) (end 149.5 35.75) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 127.365 43.329844) (end 128 43.964844) (width 0.2) (layer F.Cu) (net 65))
+  (segment (start 127.365 42.1545) (end 127.365 43.329844) (width 0.2) (layer F.Cu) (net 65))
+  (segment (start 128 45) (end 127 46) (width 0.2) (layer F.Cu) (net 65))
+  (segment (start 128 43.964844) (end 128 45) (width 0.2) (layer F.Cu) (net 65))
+  (segment (start 129 46) (end 128 45) (width 0.2) (layer F.Cu) (net 65))
+  (segment (start 126.095 43.345) (end 126.095 42.1545) (width 0.2) (layer F.Cu) (net 66))
+  (segment (start 127 44.25) (end 126.095 43.345) (width 0.2) (layer F.Cu) (net 66))
+  (segment (start 125.75 38.75) (end 125.75 59.5) (width 0.2) (layer B.Cu) (net 66))
+  (via (at 125.75 38.75) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 66))
+  (segment (start 126.095 39.095) (end 125.75 38.75) (width 0.2) (layer F.Cu) (net 66))
+  (segment (start 126.095 42.1545) (end 126.095 39.095) (width 0.2) (layer F.Cu) (net 66))
+  (segment (start 129.0673 31.405) (end 124.75 35.7223) (width 0.2) (layer F.Cu) (net 72))
+  (segment (start 130.174 31.405) (end 129.0673 31.405) (width 0.2) (layer F.Cu) (net 72))
+  (segment (start 124.75 35.7223) (end 124.75 36) (width 0.2) (layer F.Cu) (net 72))
+  (via (at 124.6 37.25) (size 0.7) (drill 0.3) (layers F.Cu B.Cu) (net 72))
+  (segment (start 124.75 37.1) (end 124.6 37.25) (width 0.2) (layer F.Cu) (net 72))
+  (segment (start 124.75 36) (end 124.75 37.1) (width 0.2) (layer F.Cu) (net 72))
+  (segment (start 124.6 38.084301) (end 124.6 37.25) (width 0.2) (layer B.Cu) (net 72))
+  (segment (start 124.75 59.5) (end 124.75 39.5) (width 0.2) (layer B.Cu) (net 72))
+  (segment (start 124.25 39) (end 124.25 38.434301) (width 0.2) (layer B.Cu) (net 72))
+  (segment (start 124.25 38.434301) (end 124.6 38.084301) (width 0.2) (layer B.Cu) (net 72))
+  (segment (start 124.75 39.5) (end 124.25 39) (width 0.2) (layer B.Cu) (net 72))
+  (segment (start 128.635 43.885) (end 129 44.25) (width 0.2) (layer F.Cu) (net 76))
+  (segment (start 128.635 42.1545) (end 128.635 43.885) (width 0.2) (layer F.Cu) (net 76))
+
   (zone (net 12) (net_name SH_A) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (priority 1)
     (connect_pads yes (clearance 0.5))
@@ -7703,18 +7839,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.5 49) (xy 212.5 49) (xy 212.5 59.5) (xy 207.5 59.5)
+        (xy 119 24.5) (xy 123.75 24.5) (xy 123.75 35) (xy 119 35)
       )
     )
     (filled_polygon
       (pts
-        (xy 210.962756 50.211) (xy 211.011263 50.454863) (xy 211.1494 50.6616) (xy 211.356137 50.799737) (xy 211.6 50.848244)
-        (xy 212.21 50.848244) (xy 212.375 50.815424) (xy 212.375 59.375) (xy 207.625 59.375) (xy 207.625 56.487891)
-        (xy 207.647737 56.453863) (xy 207.696244 56.21) (xy 207.696244 55.6) (xy 207.647737 55.356137) (xy 207.625 55.322109)
-        (xy 207.625 55.217891) (xy 207.647737 55.183863) (xy 207.696244 54.94) (xy 207.696244 54.33) (xy 207.647737 54.086137)
-        (xy 207.625 54.052109) (xy 207.625 53.947891) (xy 207.647737 53.913863) (xy 207.696244 53.67) (xy 207.696244 53.06)
-        (xy 207.647737 52.816137) (xy 207.625 52.782109) (xy 207.625 52.677891) (xy 207.647737 52.643863) (xy 207.696244 52.4)
-        (xy 207.696244 51.79) (xy 207.647737 51.546137) (xy 207.625 51.512109) (xy 207.625 49.125) (xy 210.962756 49.125)
+        (xy 122.212756 25.711) (xy 122.261263 25.954863) (xy 122.3994 26.1616) (xy 122.606137 26.299737) (xy 122.85 26.348244)
+        (xy 123.46 26.348244) (xy 123.525 26.335315) (xy 123.525001 34.875) (xy 119.125 34.875) (xy 119.125 24.625)
+        (xy 122.212756 24.625)
       )
     )
   )
@@ -7725,12 +7857,13 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 200.5 49) (xy 200.5 55) (xy 207 55) (xy 207 49)
+        (xy 112.25 24.5) (xy 112.25 30.5) (xy 118.5 30.5) (xy 118.5 24.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.875 54.875) (xy 200.625 54.875) (xy 200.625 49.125) (xy 206.875 49.125)
+        (xy 118.375 26.195295) (xy 118.325 26.316006) (xy 118.325 26.683994) (xy 118.375 26.804705) (xy 118.375 30.375)
+        (xy 112.375 30.375) (xy 112.375 24.625) (xy 118.375 24.625)
       )
     )
   )
@@ -7741,12 +7874,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 206.5 42.5) (xy 206.5 48.5) (xy 212.5 48.5) (xy 212.5 42.5)
+        (xy 117.75 18) (xy 117.75 24) (xy 123.75 24) (xy 123.75 18)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.375 48.375) (xy 206.625 48.375) (xy 206.625 42.625) (xy 212.375 42.625)
+        (xy 123.625 23.875) (xy 117.875 23.875) (xy 117.875 18.125) (xy 123.625 18.125)
       )
     )
   )
@@ -7756,98 +7889,107 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 200.5 48.5) (xy 238 48.5) (xy 238 26.5) (xy 200.5 26.5)
+        (xy 111.75 24) (xy 149.25 24) (xy 149.25 2) (xy 111.75 2)
       )
     )
     (filled_polygon
       (pts
-        (xy 237.875 48.375) (xy 237.487891 48.375) (xy 237.453863 48.352263) (xy 237.21 48.303756) (xy 236.6 48.303756)
-        (xy 236.356137 48.352263) (xy 236.322109 48.375) (xy 236.217891 48.375) (xy 236.183863 48.352263) (xy 235.94 48.303756)
-        (xy 235.33 48.303756) (xy 235.086137 48.352263) (xy 235.052109 48.375) (xy 234.947891 48.375) (xy 234.913863 48.352263)
-        (xy 234.67 48.303756) (xy 234.06 48.303756) (xy 233.816137 48.352263) (xy 233.782109 48.375) (xy 233.677891 48.375)
-        (xy 233.643863 48.352263) (xy 233.4 48.303756) (xy 232.79 48.303756) (xy 232.546137 48.352263) (xy 232.512109 48.375)
-        (xy 224.987891 48.375) (xy 224.953863 48.352263) (xy 224.71 48.303756) (xy 224.1 48.303756) (xy 223.856137 48.352263)
-        (xy 223.822109 48.375) (xy 223.717891 48.375) (xy 223.683863 48.352263) (xy 223.44 48.303756) (xy 222.83 48.303756)
-        (xy 222.586137 48.352263) (xy 222.552109 48.375) (xy 222.447891 48.375) (xy 222.413863 48.352263) (xy 222.17 48.303756)
-        (xy 221.56 48.303756) (xy 221.316137 48.352263) (xy 221.282109 48.375) (xy 221.177891 48.375) (xy 221.143863 48.352263)
-        (xy 220.9 48.303756) (xy 220.29 48.303756) (xy 220.046137 48.352263) (xy 220.012109 48.375) (xy 212.487891 48.375)
-        (xy 212.453863 48.352263) (xy 212.21 48.303756) (xy 211.6 48.303756) (xy 211.356137 48.352263) (xy 211.322109 48.375)
-        (xy 211.217891 48.375) (xy 211.183863 48.352263) (xy 210.94 48.303756) (xy 210.33 48.303756) (xy 210.086137 48.352263)
-        (xy 210.052109 48.375) (xy 209.947891 48.375) (xy 209.913863 48.352263) (xy 209.67 48.303756) (xy 209.06 48.303756)
-        (xy 208.816137 48.352263) (xy 208.782109 48.375) (xy 208.677891 48.375) (xy 208.643863 48.352263) (xy 208.4 48.303756)
-        (xy 207.79 48.303756) (xy 207.546137 48.352263) (xy 207.512109 48.375) (xy 200.625 48.375) (xy 200.625 38.987801)
-        (xy 218.425 38.987801) (xy 218.425 40.012199) (xy 218.817021 40.95862) (xy 219.54138 41.682979) (xy 220.487801 42.075)
-        (xy 221.512199 42.075) (xy 222.45862 41.682979) (xy 223.182979 40.95862) (xy 223.575 40.012199) (xy 223.575 38.987801)
-        (xy 223.182979 38.04138) (xy 222.45862 37.317021) (xy 221.512199 36.925) (xy 220.487801 36.925) (xy 219.54138 37.317021)
-        (xy 218.817021 38.04138) (xy 218.425 38.987801) (xy 200.625 38.987801) (xy 200.625 32.676767) (xy 206.875 32.676767)
-        (xy 206.875 33.323233) (xy 207.122391 33.920489) (xy 207.579511 34.377609) (xy 208.176767 34.625) (xy 208.823233 34.625)
-        (xy 209.420489 34.377609) (xy 209.877609 33.920489) (xy 210.125 33.323233) (xy 210.125 33.176767) (xy 232.875 33.176767)
-        (xy 232.875 33.823233) (xy 233.122391 34.420489) (xy 233.579511 34.877609) (xy 234.176767 35.125) (xy 234.823233 35.125)
-        (xy 235.420489 34.877609) (xy 235.877609 34.420489) (xy 236.125 33.823233) (xy 236.125 33.176767) (xy 235.877609 32.579511)
-        (xy 235.420489 32.122391) (xy 234.823233 31.875) (xy 234.176767 31.875) (xy 233.579511 32.122391) (xy 233.122391 32.579511)
-        (xy 232.875 33.176767) (xy 210.125 33.176767) (xy 210.125 32.676767) (xy 209.877609 32.079511) (xy 209.420489 31.622391)
-        (xy 208.823233 31.375) (xy 208.176767 31.375) (xy 207.579511 31.622391) (xy 207.122391 32.079511) (xy 206.875 32.676767)
-        (xy 200.625 32.676767) (xy 200.625 29.156876) (xy 211.275 29.156876) (xy 211.275 29.843124) (xy 211.537615 30.477134)
-        (xy 212.022866 30.962385) (xy 212.656876 31.225) (xy 213.343124 31.225) (xy 213.977134 30.962385) (xy 214.462385 30.477134)
-        (xy 214.725 29.843124) (xy 214.725 29.156876) (xy 222.275 29.156876) (xy 222.275 29.843124) (xy 222.537615 30.477134)
-        (xy 223.022866 30.962385) (xy 223.656876 31.225) (xy 224.343124 31.225) (xy 224.977134 30.962385) (xy 225.462385 30.477134)
-        (xy 225.725 29.843124) (xy 225.725 29.156876) (xy 225.462385 28.522866) (xy 224.977134 28.037615) (xy 224.343124 27.775)
-        (xy 223.656876 27.775) (xy 223.022866 28.037615) (xy 222.537615 28.522866) (xy 222.275 29.156876) (xy 214.725 29.156876)
-        (xy 214.462385 28.522866) (xy 213.977134 28.037615) (xy 213.343124 27.775) (xy 212.656876 27.775) (xy 212.022866 28.037615)
-        (xy 211.537615 28.522866) (xy 211.275 29.156876) (xy 200.625 29.156876) (xy 200.625 26.625) (xy 237.875 26.625)
+        (xy 149.125 23.875) (xy 148.737891 23.875) (xy 148.703863 23.852263) (xy 148.46 23.803756) (xy 147.85 23.803756)
+        (xy 147.606137 23.852263) (xy 147.572109 23.875) (xy 147.467891 23.875) (xy 147.433863 23.852263) (xy 147.19 23.803756)
+        (xy 146.58 23.803756) (xy 146.336137 23.852263) (xy 146.302109 23.875) (xy 146.197891 23.875) (xy 146.163863 23.852263)
+        (xy 145.92 23.803756) (xy 145.31 23.803756) (xy 145.066137 23.852263) (xy 145.032109 23.875) (xy 144.927891 23.875)
+        (xy 144.893863 23.852263) (xy 144.65 23.803756) (xy 144.04 23.803756) (xy 143.796137 23.852263) (xy 143.762109 23.875)
+        (xy 139.837601 23.875) (xy 139.894707 23.789534) (xy 139.962244 23.450001) (xy 139.962244 22.549999) (xy 139.894707 22.210466)
+        (xy 139.754079 22) (xy 139.894707 21.789534) (xy 139.962244 21.450001) (xy 139.962244 20.549999) (xy 139.894707 20.210466)
+        (xy 139.702377 19.922623) (xy 139.414534 19.730293) (xy 139.075001 19.662756) (xy 138.424999 19.662756) (xy 138.085466 19.730293)
+        (xy 137.797623 19.922623) (xy 137.605293 20.210466) (xy 137.537756 20.549999) (xy 137.537756 21.450001) (xy 137.605293 21.789534)
+        (xy 137.745921 22) (xy 137.605293 22.210466) (xy 137.537756 22.549999) (xy 137.537756 23.450001) (xy 137.605293 23.789534)
+        (xy 137.662399 23.875) (xy 136.237891 23.875) (xy 136.203863 23.852263) (xy 135.96 23.803756) (xy 135.35 23.803756)
+        (xy 135.106137 23.852263) (xy 135.072109 23.875) (xy 134.967891 23.875) (xy 134.933863 23.852263) (xy 134.69 23.803756)
+        (xy 134.08 23.803756) (xy 133.836137 23.852263) (xy 133.802109 23.875) (xy 133.697891 23.875) (xy 133.663863 23.852263)
+        (xy 133.42 23.803756) (xy 132.81 23.803756) (xy 132.566137 23.852263) (xy 132.532109 23.875) (xy 132.427891 23.875)
+        (xy 132.393863 23.852263) (xy 132.15 23.803756) (xy 131.54 23.803756) (xy 131.296137 23.852263) (xy 131.262109 23.875)
+        (xy 127.337601 23.875) (xy 127.394707 23.789534) (xy 127.462244 23.450001) (xy 127.462244 22.549999) (xy 127.394707 22.210466)
+        (xy 127.241579 21.981292) (xy 127.369707 21.789534) (xy 127.437244 21.450001) (xy 127.437244 20.549999) (xy 127.369707 20.210466)
+        (xy 127.177377 19.922623) (xy 126.889534 19.730293) (xy 126.550001 19.662756) (xy 125.899999 19.662756) (xy 125.560466 19.730293)
+        (xy 125.272623 19.922623) (xy 125.080293 20.210466) (xy 125.012756 20.549999) (xy 125.012756 21.450001) (xy 125.080293 21.789534)
+        (xy 125.233421 22.018708) (xy 125.105293 22.210466) (xy 125.037756 22.549999) (xy 125.037756 23.450001) (xy 125.105293 23.789534)
+        (xy 125.162399 23.875) (xy 123.737891 23.875) (xy 123.703863 23.852263) (xy 123.46 23.803756) (xy 122.85 23.803756)
+        (xy 122.606137 23.852263) (xy 122.572109 23.875) (xy 122.467891 23.875) (xy 122.433863 23.852263) (xy 122.19 23.803756)
+        (xy 121.58 23.803756) (xy 121.336137 23.852263) (xy 121.302109 23.875) (xy 121.197891 23.875) (xy 121.163863 23.852263)
+        (xy 120.92 23.803756) (xy 120.31 23.803756) (xy 120.066137 23.852263) (xy 120.032109 23.875) (xy 119.927891 23.875)
+        (xy 119.893863 23.852263) (xy 119.65 23.803756) (xy 119.04 23.803756) (xy 118.796137 23.852263) (xy 118.762109 23.875)
+        (xy 113.787601 23.875) (xy 113.844707 23.789534) (xy 113.912244 23.450001) (xy 113.912244 22.549999) (xy 113.844707 22.210466)
+        (xy 113.716579 22.018708) (xy 113.869707 21.789534) (xy 113.937244 21.450001) (xy 113.937244 20.549999) (xy 113.869707 20.210466)
+        (xy 113.677377 19.922623) (xy 113.389534 19.730293) (xy 113.050001 19.662756) (xy 112.399999 19.662756) (xy 112.060466 19.730293)
+        (xy 111.875 19.854217) (xy 111.875 14.487801) (xy 129.675 14.487801) (xy 129.675 15.512199) (xy 130.067021 16.45862)
+        (xy 130.79138 17.182979) (xy 131.737801 17.575) (xy 132.762199 17.575) (xy 133.70862 17.182979) (xy 134.432979 16.45862)
+        (xy 134.825 15.512199) (xy 134.825 14.487801) (xy 134.432979 13.54138) (xy 133.70862 12.817021) (xy 132.762199 12.425)
+        (xy 131.737801 12.425) (xy 130.79138 12.817021) (xy 130.067021 13.54138) (xy 129.675 14.487801) (xy 111.875 14.487801)
+        (xy 111.875 8.176767) (xy 118.125 8.176767) (xy 118.125 8.823233) (xy 118.372391 9.420489) (xy 118.829511 9.877609)
+        (xy 119.426767 10.125) (xy 120.073233 10.125) (xy 120.670489 9.877609) (xy 121.127609 9.420489) (xy 121.375 8.823233)
+        (xy 121.375 8.676767) (xy 144.125 8.676767) (xy 144.125 9.323233) (xy 144.372391 9.920489) (xy 144.829511 10.377609)
+        (xy 145.426767 10.625) (xy 146.073233 10.625) (xy 146.670489 10.377609) (xy 147.127609 9.920489) (xy 147.375 9.323233)
+        (xy 147.375 8.676767) (xy 147.127609 8.079511) (xy 146.670489 7.622391) (xy 146.073233 7.375) (xy 145.426767 7.375)
+        (xy 144.829511 7.622391) (xy 144.372391 8.079511) (xy 144.125 8.676767) (xy 121.375 8.676767) (xy 121.375 8.176767)
+        (xy 121.127609 7.579511) (xy 120.670489 7.122391) (xy 120.073233 6.875) (xy 119.426767 6.875) (xy 118.829511 7.122391)
+        (xy 118.372391 7.579511) (xy 118.125 8.176767) (xy 111.875 8.176767) (xy 111.875 4.656876) (xy 122.525 4.656876)
+        (xy 122.525 5.343124) (xy 122.787615 5.977134) (xy 123.272866 6.462385) (xy 123.906876 6.725) (xy 124.593124 6.725)
+        (xy 125.227134 6.462385) (xy 125.712385 5.977134) (xy 125.975 5.343124) (xy 125.975 4.656876) (xy 133.525 4.656876)
+        (xy 133.525 5.343124) (xy 133.787615 5.977134) (xy 134.272866 6.462385) (xy 134.906876 6.725) (xy 135.593124 6.725)
+        (xy 136.227134 6.462385) (xy 136.712385 5.977134) (xy 136.975 5.343124) (xy 136.975 4.656876) (xy 136.712385 4.022866)
+        (xy 136.227134 3.537615) (xy 135.593124 3.275) (xy 134.906876 3.275) (xy 134.272866 3.537615) (xy 133.787615 4.022866)
+        (xy 133.525 4.656876) (xy 125.975 4.656876) (xy 125.712385 4.022866) (xy 125.227134 3.537615) (xy 124.593124 3.275)
+        (xy 123.906876 3.275) (xy 123.272866 3.537615) (xy 122.787615 4.022866) (xy 122.525 4.656876) (xy 111.875 4.656876)
+        (xy 111.875 2.125) (xy 149.125 2.125)
       )
     )
   )
-  (zone (net 1) (net_name SL_A) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name SL_A) (layer B.Cu) (tstamp 5B69249F) (hatch edge 0.508)
     (connect_pads yes (clearance 0.5))
     (min_thickness 0.25)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 200.5 26.5) (xy 200.5 64) (xy 238 64) (xy 238 26.5)
+        (xy 111.75 2) (xy 111.75 35) (xy 149.25 35) (xy 149.25 2)
       )
     )
     (filled_polygon
       (pts
-        (xy 237.875 42.013329) (xy 237.739177 41.922575) (xy 237.5 41.875) (xy 231.5 41.875) (xy 231.260823 41.922575)
-        (xy 231.058058 42.058058) (xy 230.922575 42.260823) (xy 230.875 42.5) (xy 230.875 48.5) (xy 230.922575 48.739177)
-        (xy 231.058058 48.941942) (xy 231.260823 49.077425) (xy 231.5 49.125) (xy 231.875 49.125) (xy 231.875 59.5)
-        (xy 231.922575 59.739177) (xy 232.058058 59.941942) (xy 232.260823 60.077425) (xy 232.5 60.125) (xy 237.5 60.125)
-        (xy 237.739177 60.077425) (xy 237.875 59.986671) (xy 237.875 63.875) (xy 200.625 63.875) (xy 200.625 42.5)
-        (xy 205.875 42.5) (xy 205.875 48.5) (xy 205.922575 48.739177) (xy 206.058058 48.941942) (xy 206.260823 49.077425)
-        (xy 206.5 49.125) (xy 206.875 49.125) (xy 206.875 59.5) (xy 206.922575 59.739177) (xy 207.058058 59.941942)
-        (xy 207.260823 60.077425) (xy 207.5 60.125) (xy 212.5 60.125) (xy 212.739177 60.077425) (xy 212.941942 59.941942)
-        (xy 213.077425 59.739177) (xy 213.125 59.5) (xy 213.125 49) (xy 213.077425 48.760823) (xy 213.070193 48.75)
-        (xy 213.077425 48.739177) (xy 213.125 48.5) (xy 213.125 42.5) (xy 218.375 42.5) (xy 218.375 48.5)
-        (xy 218.422575 48.739177) (xy 218.558058 48.941942) (xy 218.760823 49.077425) (xy 219 49.125) (xy 219.375 49.125)
-        (xy 219.375 59.5) (xy 219.422575 59.739177) (xy 219.558058 59.941942) (xy 219.760823 60.077425) (xy 220 60.125)
-        (xy 225 60.125) (xy 225.239177 60.077425) (xy 225.441942 59.941942) (xy 225.577425 59.739177) (xy 225.625 59.5)
-        (xy 225.625 49) (xy 225.577425 48.760823) (xy 225.570193 48.75) (xy 225.577425 48.739177) (xy 225.625 48.5)
-        (xy 225.625 42.5) (xy 225.577425 42.260823) (xy 225.441942 42.058058) (xy 225.239177 41.922575) (xy 225 41.875)
-        (xy 219 41.875) (xy 218.760823 41.922575) (xy 218.558058 42.058058) (xy 218.422575 42.260823) (xy 218.375 42.5)
-        (xy 213.125 42.5) (xy 213.077425 42.260823) (xy 212.941942 42.058058) (xy 212.739177 41.922575) (xy 212.5 41.875)
-        (xy 206.5 41.875) (xy 206.260823 41.922575) (xy 206.058058 42.058058) (xy 205.922575 42.260823) (xy 205.875 42.5)
-        (xy 200.625 42.5) (xy 200.625 38.987801) (xy 213.425 38.987801) (xy 213.425 40.012199) (xy 213.817021 40.95862)
-        (xy 214.54138 41.682979) (xy 215.487801 42.075) (xy 216.512199 42.075) (xy 217.45862 41.682979) (xy 218.182979 40.95862)
-        (xy 218.575 40.012199) (xy 218.575 38.987801) (xy 218.182979 38.04138) (xy 217.45862 37.317021) (xy 216.512199 36.925)
-        (xy 215.487801 36.925) (xy 214.54138 37.317021) (xy 213.817021 38.04138) (xy 213.425 38.987801) (xy 200.625 38.987801)
-        (xy 200.625 32) (xy 201.862756 32) (xy 201.862756 34) (xy 201.911263 34.243863) (xy 202.0494 34.4506)
-        (xy 202.256137 34.588737) (xy 202.5 34.637244) (xy 204.5 34.637244) (xy 204.743863 34.588737) (xy 204.9506 34.4506)
-        (xy 205.088737 34.243863) (xy 205.137244 34) (xy 205.137244 32.5) (xy 227.862756 32.5) (xy 227.862756 34.5)
-        (xy 227.911263 34.743863) (xy 228.0494 34.9506) (xy 228.256137 35.088737) (xy 228.5 35.137244) (xy 230.5 35.137244)
-        (xy 230.743863 35.088737) (xy 230.9506 34.9506) (xy 231.088737 34.743863) (xy 231.137244 34.5) (xy 231.137244 32.5)
-        (xy 231.088737 32.256137) (xy 230.9506 32.0494) (xy 230.743863 31.911263) (xy 230.5 31.862756) (xy 228.5 31.862756)
-        (xy 228.256137 31.911263) (xy 228.0494 32.0494) (xy 227.911263 32.256137) (xy 227.862756 32.5) (xy 205.137244 32.5)
-        (xy 205.137244 32) (xy 205.088737 31.756137) (xy 204.9506 31.5494) (xy 204.743863 31.411263) (xy 204.5 31.362756)
-        (xy 202.5 31.362756) (xy 202.256137 31.411263) (xy 202.0494 31.5494) (xy 201.911263 31.756137) (xy 201.862756 32)
-        (xy 200.625 32) (xy 200.625 29.156876) (xy 211.275 29.156876) (xy 211.275 29.843124) (xy 211.537615 30.477134)
-        (xy 212.022866 30.962385) (xy 212.656876 31.225) (xy 213.343124 31.225) (xy 213.977134 30.962385) (xy 214.462385 30.477134)
-        (xy 214.725 29.843124) (xy 214.725 29.156876) (xy 222.275 29.156876) (xy 222.275 29.843124) (xy 222.537615 30.477134)
-        (xy 223.022866 30.962385) (xy 223.656876 31.225) (xy 224.343124 31.225) (xy 224.977134 30.962385) (xy 225.462385 30.477134)
-        (xy 225.725 29.843124) (xy 225.725 29.156876) (xy 225.462385 28.522866) (xy 224.977134 28.037615) (xy 224.343124 27.775)
-        (xy 223.656876 27.775) (xy 223.022866 28.037615) (xy 222.537615 28.522866) (xy 222.275 29.156876) (xy 214.725 29.156876)
-        (xy 214.462385 28.522866) (xy 213.977134 28.037615) (xy 213.343124 27.775) (xy 212.656876 27.775) (xy 212.022866 28.037615)
-        (xy 211.537615 28.522866) (xy 211.275 29.156876) (xy 200.625 29.156876) (xy 200.625 26.625) (xy 237.875 26.625)
+        (xy 149.125 17.513329) (xy 148.989177 17.422575) (xy 148.75 17.375) (xy 142.75 17.375) (xy 142.510823 17.422575)
+        (xy 142.308058 17.558058) (xy 142.172575 17.760823) (xy 142.125 18) (xy 142.125 24) (xy 142.172575 24.239177)
+        (xy 142.308058 24.441942) (xy 142.510823 24.577425) (xy 142.75 24.625) (xy 143.125 24.625) (xy 143.125 34.875)
+        (xy 136.875 34.875) (xy 136.875 24.5) (xy 136.827425 24.260823) (xy 136.820193 24.25) (xy 136.827425 24.239177)
+        (xy 136.875 24) (xy 136.875 18) (xy 136.827425 17.760823) (xy 136.691942 17.558058) (xy 136.489177 17.422575)
+        (xy 136.25 17.375) (xy 130.25 17.375) (xy 130.010823 17.422575) (xy 129.808058 17.558058) (xy 129.672575 17.760823)
+        (xy 129.625 18) (xy 129.625 24) (xy 129.672575 24.239177) (xy 129.808058 24.441942) (xy 130.010823 24.577425)
+        (xy 130.25 24.625) (xy 130.625 24.625) (xy 130.625 34.875) (xy 129.726556 34.875) (xy 129.394679 34.737532)
+        (xy 129.006801 34.737532) (xy 128.674924 34.875) (xy 124.375 34.875) (xy 124.375 24.5) (xy 124.327425 24.260823)
+        (xy 124.320193 24.25) (xy 124.327425 24.239177) (xy 124.375 24) (xy 124.375 18) (xy 124.327425 17.760823)
+        (xy 124.191942 17.558058) (xy 123.989177 17.422575) (xy 123.75 17.375) (xy 117.75 17.375) (xy 117.510823 17.422575)
+        (xy 117.308058 17.558058) (xy 117.172575 17.760823) (xy 117.125 18) (xy 117.125 24) (xy 117.172575 24.239177)
+        (xy 117.308058 24.441942) (xy 117.510823 24.577425) (xy 117.75 24.625) (xy 118.125 24.625) (xy 118.125 34.875)
+        (xy 111.875 34.875) (xy 111.875 14.487801) (xy 124.675 14.487801) (xy 124.675 15.512199) (xy 125.067021 16.45862)
+        (xy 125.79138 17.182979) (xy 126.737801 17.575) (xy 127.762199 17.575) (xy 128.70862 17.182979) (xy 129.432979 16.45862)
+        (xy 129.825 15.512199) (xy 129.825 14.487801) (xy 129.432979 13.54138) (xy 128.70862 12.817021) (xy 127.762199 12.425)
+        (xy 126.737801 12.425) (xy 125.79138 12.817021) (xy 125.067021 13.54138) (xy 124.675 14.487801) (xy 111.875 14.487801)
+        (xy 111.875 7.5) (xy 113.112756 7.5) (xy 113.112756 9.5) (xy 113.161263 9.743863) (xy 113.2994 9.9506)
+        (xy 113.506137 10.088737) (xy 113.75 10.137244) (xy 115.75 10.137244) (xy 115.993863 10.088737) (xy 116.2006 9.9506)
+        (xy 116.338737 9.743863) (xy 116.387244 9.5) (xy 116.387244 8) (xy 139.112756 8) (xy 139.112756 10)
+        (xy 139.161263 10.243863) (xy 139.2994 10.4506) (xy 139.506137 10.588737) (xy 139.75 10.637244) (xy 141.75 10.637244)
+        (xy 141.993863 10.588737) (xy 142.2006 10.4506) (xy 142.338737 10.243863) (xy 142.387244 10) (xy 142.387244 8)
+        (xy 142.338737 7.756137) (xy 142.2006 7.5494) (xy 141.993863 7.411263) (xy 141.75 7.362756) (xy 139.75 7.362756)
+        (xy 139.506137 7.411263) (xy 139.2994 7.5494) (xy 139.161263 7.756137) (xy 139.112756 8) (xy 116.387244 8)
+        (xy 116.387244 7.5) (xy 116.338737 7.256137) (xy 116.2006 7.0494) (xy 115.993863 6.911263) (xy 115.75 6.862756)
+        (xy 113.75 6.862756) (xy 113.506137 6.911263) (xy 113.2994 7.0494) (xy 113.161263 7.256137) (xy 113.112756 7.5)
+        (xy 111.875 7.5) (xy 111.875 4.656876) (xy 122.525 4.656876) (xy 122.525 5.343124) (xy 122.787615 5.977134)
+        (xy 123.272866 6.462385) (xy 123.906876 6.725) (xy 124.593124 6.725) (xy 125.227134 6.462385) (xy 125.712385 5.977134)
+        (xy 125.975 5.343124) (xy 125.975 4.656876) (xy 133.525 4.656876) (xy 133.525 5.343124) (xy 133.787615 5.977134)
+        (xy 134.272866 6.462385) (xy 134.906876 6.725) (xy 135.593124 6.725) (xy 136.227134 6.462385) (xy 136.712385 5.977134)
+        (xy 136.975 5.343124) (xy 136.975 4.656876) (xy 136.712385 4.022866) (xy 136.227134 3.537615) (xy 135.593124 3.275)
+        (xy 134.906876 3.275) (xy 134.272866 3.537615) (xy 133.787615 4.022866) (xy 133.525 4.656876) (xy 125.975 4.656876)
+        (xy 125.712385 4.022866) (xy 125.227134 3.537615) (xy 124.593124 3.275) (xy 123.906876 3.275) (xy 123.272866 3.537615)
+        (xy 122.787615 4.022866) (xy 122.525 4.656876) (xy 111.875 4.656876) (xy 111.875 2.125) (xy 149.125 2.125)
       )
     )
   )
@@ -7858,12 +8000,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.5 49) (xy 207.5 59.5) (xy 212.5 59.5) (xy 212.5 49)
+        (xy 118.75 24.5) (xy 118.75 35) (xy 123.75 35) (xy 123.75 24.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.375 59.375) (xy 207.625 59.375) (xy 207.625 49.125) (xy 212.375 49.125)
+        (xy 123.625 34.875) (xy 118.875 34.875) (xy 118.875 24.625) (xy 123.625 24.625)
       )
     )
   )
@@ -7874,12 +8016,15 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 213 49) (xy 213 55) (xy 219.5 55) (xy 219.5 49)
+        (xy 124.5 24.5) (xy 124.5 30.5) (xy 131 30.5) (xy 131 24.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 219.375 54.875) (xy 213.125 54.875) (xy 213.125 49.125) (xy 219.375 49.125)
+        (xy 130.875 26.195295) (xy 130.825 26.316006) (xy 130.825 26.683994) (xy 130.875 26.804705) (xy 130.875 30.375)
+        (xy 124.975 30.375) (xy 124.975 25.737399) (xy 124.989202 25.665999) (xy 124.975 25.594597) (xy 124.975 25.594596)
+        (xy 124.932935 25.383119) (xy 124.813142 25.203837) (xy 124.813138 25.203833) (xy 124.772694 25.143305) (xy 124.712166 25.102861)
+        (xy 124.625 25.015695) (xy 124.625 24.625) (xy 130.875 24.625)
       )
     )
   )
@@ -7890,18 +8035,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 220 49) (xy 225 49) (xy 225 59.5) (xy 220 59.5)
+        (xy 131.5 24.5) (xy 136.25 24.5) (xy 136.25 35) (xy 131.5 35)
       )
     )
     (filled_polygon
       (pts
-        (xy 223.462756 50.211) (xy 223.511263 50.454863) (xy 223.6494 50.6616) (xy 223.856137 50.799737) (xy 224.1 50.848244)
-        (xy 224.71 50.848244) (xy 224.875 50.815424) (xy 224.875 59.375) (xy 220.125 59.375) (xy 220.125 56.487891)
-        (xy 220.147737 56.453863) (xy 220.196244 56.21) (xy 220.196244 55.6) (xy 220.147737 55.356137) (xy 220.125 55.322109)
-        (xy 220.125 55.217891) (xy 220.147737 55.183863) (xy 220.196244 54.94) (xy 220.196244 54.33) (xy 220.147737 54.086137)
-        (xy 220.125 54.052109) (xy 220.125 53.947891) (xy 220.147737 53.913863) (xy 220.196244 53.67) (xy 220.196244 53.06)
-        (xy 220.147737 52.816137) (xy 220.125 52.782109) (xy 220.125 52.677891) (xy 220.147737 52.643863) (xy 220.196244 52.4)
-        (xy 220.196244 51.79) (xy 220.147737 51.546137) (xy 220.125 51.512109) (xy 220.125 49.125) (xy 223.462756 49.125)
+        (xy 134.712756 25.711) (xy 134.761263 25.954863) (xy 134.8994 26.1616) (xy 135.106137 26.299737) (xy 135.35 26.348244)
+        (xy 135.96 26.348244) (xy 136 26.340288) (xy 136.000001 34.875) (xy 131.625 34.875) (xy 131.625 24.625)
+        (xy 134.712756 24.625)
       )
     )
   )
@@ -7912,12 +8053,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 220 49) (xy 220 59.5) (xy 225 59.5) (xy 225 49)
+        (xy 131.25 24.5) (xy 131.25 35) (xy 136.25 35) (xy 136.25 24.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 224.875 59.375) (xy 220.125 59.375) (xy 220.125 49.125) (xy 224.875 49.125)
+        (xy 136.125 34.875) (xy 131.375 34.875) (xy 131.375 24.625) (xy 136.125 24.625)
       )
     )
   )
@@ -7928,12 +8069,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 219 42.5) (xy 219 48.5) (xy 225 48.5) (xy 225 42.5)
+        (xy 130.25 18) (xy 130.25 24) (xy 136.25 24) (xy 136.25 18)
       )
     )
     (filled_polygon
       (pts
-        (xy 224.875 48.375) (xy 219.125 48.375) (xy 219.125 42.625) (xy 224.875 42.625)
+        (xy 136.125 23.875) (xy 130.375 23.875) (xy 130.375 18.125) (xy 136.125 18.125)
       )
     )
   )
@@ -7944,12 +8085,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 225.5 49) (xy 225.5 55) (xy 232 55) (xy 232 49)
+        (xy 137 24.5) (xy 137 30.5) (xy 143.5 30.5) (xy 143.5 24.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 231.875 54.875) (xy 225.625 54.875) (xy 225.625 49.125) (xy 231.875 49.125)
+        (xy 143.375 26.195295) (xy 143.325 26.316006) (xy 143.325 26.683994) (xy 143.375 26.804705) (xy 143.375 30.375)
+        (xy 137.5 30.375) (xy 137.5 25.689864) (xy 137.514693 25.615999) (xy 137.499197 25.538099) (xy 137.456484 25.323365)
+        (xy 137.29072 25.07528) (xy 137.228099 25.033439) (xy 137.125 24.93034) (xy 137.125 24.625) (xy 143.375 24.625)
       )
     )
   )
@@ -7960,18 +8103,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 232.5 49) (xy 237.5 49) (xy 237.5 59.5) (xy 232.5 59.5)
+        (xy 144 24.5) (xy 148.75 24.5) (xy 148.75 35) (xy 144 35)
       )
     )
     (filled_polygon
       (pts
-        (xy 235.962756 50.211) (xy 236.011263 50.454863) (xy 236.1494 50.6616) (xy 236.356137 50.799737) (xy 236.6 50.848244)
-        (xy 237.21 50.848244) (xy 237.375 50.815424) (xy 237.375 59.375) (xy 232.625 59.375) (xy 232.625 56.487891)
-        (xy 232.647737 56.453863) (xy 232.696244 56.21) (xy 232.696244 55.6) (xy 232.647737 55.356137) (xy 232.625 55.322109)
-        (xy 232.625 55.217891) (xy 232.647737 55.183863) (xy 232.696244 54.94) (xy 232.696244 54.33) (xy 232.647737 54.086137)
-        (xy 232.625 54.052109) (xy 232.625 53.947891) (xy 232.647737 53.913863) (xy 232.696244 53.67) (xy 232.696244 53.06)
-        (xy 232.647737 52.816137) (xy 232.625 52.782109) (xy 232.625 52.677891) (xy 232.647737 52.643863) (xy 232.696244 52.4)
-        (xy 232.696244 51.79) (xy 232.647737 51.546137) (xy 232.625 51.512109) (xy 232.625 49.125) (xy 235.962756 49.125)
+        (xy 147.212756 25.711) (xy 147.261263 25.954863) (xy 147.3994 26.1616) (xy 147.606137 26.299737) (xy 147.85 26.348244)
+        (xy 148.46 26.348244) (xy 148.625 26.315424) (xy 148.625 34.875) (xy 144.125 34.875) (xy 144.125 24.625)
+        (xy 147.212756 24.625)
       )
     )
   )
@@ -7982,12 +8121,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 232.5 49) (xy 232.5 59.5) (xy 237.5 59.5) (xy 237.5 49)
+        (xy 143.75 24.5) (xy 143.75 35) (xy 148.75 35) (xy 148.75 24.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 237.375 59.375) (xy 232.625 59.375) (xy 232.625 49.125) (xy 237.375 49.125)
+        (xy 148.625 34.875) (xy 143.875 34.875) (xy 143.875 24.625) (xy 148.625 24.625)
       )
     )
   )
@@ -7998,12 +8137,59 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 231.5 42.5) (xy 231.5 48.5) (xy 237.5 48.5) (xy 237.5 42.5)
+        (xy 142.75 18) (xy 142.75 24) (xy 148.75 24) (xy 148.75 18)
       )
     )
     (filled_polygon
       (pts
-        (xy 237.375 48.375) (xy 231.625 48.375) (xy 231.625 42.625) (xy 237.375 42.625)
+        (xy 148.625 23.875) (xy 142.875 23.875) (xy 142.875 18.125) (xy 148.625 18.125)
+      )
+    )
+  )
+  (zone (net 32) (net_name "Net-(J2-Pad1)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.5))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 118.25 39.5) (xy 118.25 46.5) (xy 125.25 46.5) (xy 125.25 39.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 125.123 46.373) (xy 118.377 46.373) (xy 118.377 39.627) (xy 125.123 39.627)
+      )
+    )
+  )
+  (zone (net 33) (net_name "Net-(J3-Pad1)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.5))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 130.75 39.5) (xy 130.75 46.5) (xy 137.75 46.5) (xy 137.75 39.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 137.623 46.373) (xy 130.877 46.373) (xy 130.877 43.935759) (xy 130.977 43.694337) (xy 130.977 43.305663)
+        (xy 130.877 43.064241) (xy 130.877 41.159687) (xy 131.029016 40.932179) (xy 131.077 40.690948) (xy 131.093201 40.6095)
+        (xy 131.077 40.528052) (xy 131.077 39.627) (xy 137.623 39.627)
+      )
+    )
+  )
+  (zone (net 34) (net_name "Net-(J4-Pad1)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.5))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 143.25 39.5) (xy 143.25 46.5) (xy 150.25 46.5) (xy 150.25 39.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 150.123 46.373) (xy 143.377 46.373) (xy 143.377 39.627) (xy 150.123 39.627)
       )
     )
   )
