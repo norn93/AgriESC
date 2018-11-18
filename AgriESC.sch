@@ -23,7 +23,7 @@ F 1 "STM32F405RGT6" H 8650 1850 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 8050 1500 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 8650 3200 50  0001 C CNN
 	1    8650 3200
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9350 1600 9400 1600
@@ -220,7 +220,7 @@ L Device:C C30
 U 1 1 5B456A94
 P 7750 2400
 F 0 "C30" V 7498 2400 50  0000 C CNN
-F 1 "2u2" V 7589 2400 50  0000 C CNN
+F 1 "2u2" H 7589 2400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 2250 50  0001 C CNN
 F 3 "~" H 7750 2400 50  0001 C CNN
 	1    7750 2400
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3200 9900 3200
 Wire Wire Line
-	10500 3200 10200 3200
+	10500 3200 10450 3200
 Wire Wire Line
 	9350 3300 9900 3300
 Wire Wire Line
@@ -608,9 +608,9 @@ F 3 "~" H 10650 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10500 3300 10200 3300
+	10500 3300 10450 3300
 Wire Wire Line
-	10200 3400 10500 3400
+	10200 3400 10450 3400
 Wire Wire Line
 	10800 3200 10950 3200
 Wire Wire Line
@@ -3842,4 +3842,13 @@ F 3 "" H 7000 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 3100 7000 3150
+Connection ~ 10450 3200
+Wire Wire Line
+	10450 3200 10200 3200
+Connection ~ 10450 3300
+Wire Wire Line
+	10450 3300 10200 3300
+Connection ~ 10450 3400
+Wire Wire Line
+	10450 3400 10500 3400
 $EndSCHEMATC
