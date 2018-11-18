@@ -3795,7 +3795,7 @@ F 3 "" H 7700 -950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6550 2550 0    50   ~ 0
-FC4STCBAF8.0-BAG200
+CSTNE8M00G550000R0
 Text Notes 4100 8700 0    50   ~ 0
 NR8040T220M
 Text Notes 11200 -1600 0    50   ~ 0
