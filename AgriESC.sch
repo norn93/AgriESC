@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AgriESC-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1859,7 +1859,7 @@ U 1 1 5C30B4F9
 P 8000 5800
 F 0 "U12" H 8000 6450 50  0000 C CNN
 F 1 "TJA1051TK-3" H 8000 6350 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" H 8000 5300 50  0001 C CIN
+F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.65mm" H 8000 5300 50  0001 C CIN
 F 3 "http://www.nxp.com/documents/data_sheet/TJA1051.pdf" H 8000 5800 50  0001 C CNN
 	1    8000 5800
 	1    0    0    -1  
