@@ -1126,8 +1126,6 @@ Wire Wire Line
 Text GLabel 3050 -450 0    50   Input ~ 0
 SL_A
 Wire Wire Line
-	3050 -450 3300 -450
-Wire Wire Line
 	3300 -450 3300 -600
 $Comp
 L Device:C C1
@@ -1175,8 +1173,6 @@ Connection ~ 3500 -450
 Wire Wire Line
 	3300 -1950 3300 -2150
 Connection ~ 3300 -1950
-Wire Wire Line
-	3300 -450 3300 -200
 Text GLabel 2500 -1650 0    50   Input ~ 0
 GH_A
 Wire Wire Line
@@ -1859,7 +1855,7 @@ U 1 1 5C30B4F9
 P 8000 5800
 F 0 "U12" H 8000 6450 50  0000 C CNN
 F 1 "TJA1051TK-3" H 8000 6350 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" H 8000 5300 50  0001 C CIN
+F 2 "Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.65mm" H 8000 5300 50  0001 C CIN
 F 3 "http://www.nxp.com/documents/data_sheet/TJA1051.pdf" H 8000 5800 50  0001 C CNN
 	1    8000 5800
 	1    0    0    -1  
@@ -2193,8 +2189,6 @@ Wire Wire Line
 Text GLabel 6350 -450 0    50   Input ~ 0
 SL_B
 Wire Wire Line
-	6350 -450 6600 -450
-Wire Wire Line
 	6600 -450 6600 -600
 $Comp
 L Device:C C3
@@ -2242,8 +2236,6 @@ Connection ~ 6800 -450
 Wire Wire Line
 	6600 -1950 6600 -2150
 Connection ~ 6600 -1950
-Wire Wire Line
-	6600 -450 6600 -200
 Text GLabel 5800 -1650 0    50   Input ~ 0
 GH_B
 Wire Wire Line
@@ -2446,8 +2438,6 @@ Wire Wire Line
 Text GLabel 9600 -450 0    50   Input ~ 0
 SL_C
 Wire Wire Line
-	9600 -450 9850 -450
-Wire Wire Line
 	9850 -450 9850 -600
 $Comp
 L Device:C C5
@@ -2549,17 +2539,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 -2350 9850 -2150
 Wire Wire Line
-	3300 -200 6600 -200
-Connection ~ 6600 -200
-Wire Wire Line
-	9850 -450 9850 -200
-Wire Wire Line
 	10050 -200 10050 -50 
-Connection ~ 9850 -200
-Wire Wire Line
-	9850 -200 10050 -200
-Wire Wire Line
-	6600 -200 9850 -200
 Text GLabel 1050 800  0    50   Input ~ 0
 CURRENT_1
 $Comp
@@ -3117,51 +3097,51 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5E04539D
-P 2650 6800
-F 0 "#FLG01" H 2650 6875 50  0001 C CNN
-F 1 "PWR_FLAG" H 2650 6974 50  0000 C CNN
-F 2 "" H 2650 6800 50  0001 C CNN
-F 3 "~" H 2650 6800 50  0001 C CNN
-	1    2650 6800
+P 2700 6200
+F 0 "#FLG01" H 2700 6275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 6374 50  0000 C CNN
+F 2 "" H 2700 6200 50  0001 C CNN
+F 3 "~" H 2700 6200 50  0001 C CNN
+	1    2700 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR055
 U 1 1 5E045557
-P 2650 6850
-F 0 "#PWR055" H 2650 6600 50  0001 C CNN
-F 1 "GND" H 2655 6677 50  0000 C CNN
-F 2 "" H 2650 6850 50  0001 C CNN
-F 3 "" H 2650 6850 50  0001 C CNN
-	1    2650 6850
+P 2700 6250
+F 0 "#PWR055" H 2700 6000 50  0001 C CNN
+F 1 "GND" H 2705 6077 50  0000 C CNN
+F 2 "" H 2700 6250 50  0001 C CNN
+F 3 "" H 2700 6250 50  0001 C CNN
+	1    2700 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5E0457CD
-P 3000 6850
-F 0 "#FLG02" H 3000 6925 50  0001 C CNN
-F 1 "PWR_FLAG" H 3000 7023 50  0000 C CNN
-F 2 "" H 3000 6850 50  0001 C CNN
-F 3 "~" H 3000 6850 50  0001 C CNN
-	1    3000 6850
+P 3050 6250
+F 0 "#FLG02" H 3050 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3050 6423 50  0000 C CNN
+F 2 "" H 3050 6250 50  0001 C CNN
+F 3 "~" H 3050 6250 50  0001 C CNN
+	1    3050 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR054
 U 1 1 5E045EB9
-P 3000 6800
-F 0 "#PWR054" H 3000 6650 50  0001 C CNN
-F 1 "+5V" H 3015 6973 50  0000 C CNN
-F 2 "" H 3000 6800 50  0001 C CNN
-F 3 "" H 3000 6800 50  0001 C CNN
-	1    3000 6800
+P 3050 6200
+F 0 "#PWR054" H 3050 6050 50  0001 C CNN
+F 1 "+5V" H 3065 6373 50  0000 C CNN
+F 2 "" H 3050 6200 50  0001 C CNN
+F 3 "" H 3050 6200 50  0001 C CNN
+	1    3050 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6800 3000 6850
+	3050 6200 3050 6250
 Wire Wire Line
-	2650 6800 2650 6850
+	2700 6200 2700 6250
 Text GLabel 1850 8850 0    50   Input ~ 0
 SUPPLY
 Wire Wire Line
@@ -3170,18 +3150,18 @@ Connection ~ 1900 8850
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5E1F88B7
-P 3400 6850
-F 0 "#FLG03" H 3400 6925 50  0001 C CNN
-F 1 "PWR_FLAG" H 3400 7023 50  0000 C CNN
-F 2 "" H 3400 6850 50  0001 C CNN
-F 3 "~" H 3400 6850 50  0001 C CNN
-	1    3400 6850
+P 2700 7050
+F 0 "#FLG03" H 2700 7125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 7223 50  0000 C CNN
+F 2 "" H 2700 7050 50  0001 C CNN
+F 3 "~" H 2700 7050 50  0001 C CNN
+	1    2700 7050
 	-1   0    0    1   
 $EndComp
-Text GLabel 3400 6800 1    50   Input ~ 0
+Text GLabel 2700 7000 1    50   Input ~ 0
 SUPPLY
 Wire Wire Line
-	3400 6800 3400 6850
+	2700 7000 2700 7050
 Text Notes 2550 9900 0    50   ~ 0
 From the design guide
 Wire Wire Line
@@ -3842,4 +3822,77 @@ Wire Wire Line
 	10200 3300 10500 3300
 Wire Wire Line
 	10200 3200 10500 3200
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 5C1B6C66
+P 6500 -450
+F 0 "NT2" H 6500 -628 50  0000 C CNN
+F 1 "Net-Tie_2" H 6500 -537 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 6500 -450 50  0001 C CNN
+F 3 "~" H 6500 -450 50  0001 C CNN
+	1    6500 -450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT3
+U 1 1 5C1B70D1
+P 9750 -450
+F 0 "NT3" H 9750 -628 50  0000 C CNN
+F 1 "Net-Tie_2" H 9750 -537 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 9750 -450 50  0001 C CNN
+F 3 "~" H 9750 -450 50  0001 C CNN
+	1    9750 -450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5C1B74C5
+P 3200 -450
+F 0 "NT1" H 3200 -628 50  0000 C CNN
+F 1 "Net-Tie_2" H 3200 -537 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 3200 -450 50  0001 C CNN
+F 3 "~" H 3200 -450 50  0001 C CNN
+	1    3200 -450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 -450 3050 -450
+Wire Wire Line
+	3300 -450 3300 -200
+Wire Wire Line
+	6400 -450 6350 -450
+Wire Wire Line
+	3300 -200 6600 -200
+Wire Wire Line
+	6600 -450 6600 -200
+Connection ~ 6600 -200
+Wire Wire Line
+	9650 -450 9600 -450
+Wire Wire Line
+	6600 -200 9850 -200
+Wire Wire Line
+	9850 -450 9850 -200
+Connection ~ 9850 -200
+Wire Wire Line
+	9850 -200 10050 -200
+Wire Wire Line
+	4300 6350 4350 6350
+Connection ~ 4350 6350
+$Comp
+L power:VCC #PWR0102
+U 1 1 5C9F451C
+P 3050 6800
+F 0 "#PWR0102" H 3050 6650 50  0001 C CNN
+F 1 "VCC" H 3067 6973 50  0000 C CNN
+F 2 "" H 3050 6800 50  0001 C CNN
+F 3 "" H 3050 6800 50  0001 C CNN
+	1    3050 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6800 3050 6850
+Text Label 3050 6850 3    50   ~ 0
+HALL_POWER
+Text Label 4300 6350 2    50   ~ 0
+HALL_POWER
 $EndSCHEMATC
