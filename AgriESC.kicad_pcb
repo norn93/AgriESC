@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
     (drawings 31)
-    (tracks 2905)
+    (tracks 2907)
     (zones 0)
     (modules 137)
     (nets 114)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.4)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -9443,6 +9443,8 @@
   (segment (start 149.235854 112.51801) (end 148.838001 112.120157) (width 0.2) (layer F.Cu) (net 113) (tstamp 5C4CDD70))
   (segment (start 148.838001 112.120157) (end 148.838001 110.885999) (width 0.2) (layer F.Cu) (net 113) (tstamp 5C4CDD6D))
   (segment (start 148.838001 110.885999) (end 149.188 110.536) (width 0.2) (layer F.Cu) (net 113) (tstamp 5C4CDD6A))
+  (segment (start 140.897 85.397) (end 140.897 84.878) (width 0.4) (layer F.Cu) (net 113))
+  (segment (start 141.353918 85.853918) (end 140.897 85.397) (width 0.4) (layer F.Cu) (net 113))
 
   (zone (net 113) (net_name GND) (layer F.Cu) (tstamp 5C041885) (hatch edge 0.508)
     (priority 1)
