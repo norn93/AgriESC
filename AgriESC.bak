@@ -3956,4 +3956,19 @@ F 3 "" H 3800 3100 50  0001 C CNN
 	1    3800 3100
 	1    0    0    -1  
 $EndComp
+Text GLabel 7950 3900 2    50   Input ~ 0
+VREF
+Wire Wire Line
+	7950 3900 7900 3900
+Connection ~ 7900 3900
+Text GLabel 11250 3900 2    50   Input ~ 0
+VREF
+Wire Wire Line
+	11250 3900 11200 3900
+Connection ~ 11200 3900
+Text GLabel 14500 3900 2    50   Input ~ 0
+VREF
+Wire Wire Line
+	14500 3900 14450 3900
+Connection ~ 14450 3900
 $EndSCHEMATC
